@@ -24,4 +24,5 @@ public:
 	//nyra
 	void ResetToOriginalSize();
 	virtual void CHexagon::Resize(GUI* pGUI, float scaleFactor);
+	string CHexagon::getShapeType();
 };

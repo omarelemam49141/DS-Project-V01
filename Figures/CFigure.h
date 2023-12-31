@@ -11,7 +11,7 @@ protected:
 	int ID;		//Each figure has an ID
 	bool Selected;	//true if the figure is selected.
 	GfxInfo FigGfxInfo;	//Figure graphis info
-	
+	bool PlayHidden;
 	/// Add more parameters if needed.
 
 public:
@@ -39,7 +39,8 @@ public:
 
 	//nyra
 	virtual void Resize(GUI* pGUI, float size) = 0;
-
+	virtual string getShapeType() = 0;  // to get type of the shape
+	color CFigure::getFillColor();
 	///The following functions should be supported by the figure class
 	///It should be overridden by each inherited figure
 
@@ -54,6 +55,9 @@ public:
 	//virtual void Load(ifstream &Infile) = 0;	//Load the figure parameters to the file
 
 	//virtual void PrintInfo(Output* pOut) = 0;	//print all figure info on the status bar
+
+	void Hide();
+	void ShowW();
 };
 
 #endif

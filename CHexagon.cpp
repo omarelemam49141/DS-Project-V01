@@ -152,3 +152,9 @@ void CHexagon::ResetToOriginalSize()
         yCoordinates[i] = originalYCoordinates[i];
     }
 }
+
+
+string CHexagon::getShapeType()
+{
+    return "Hexagon";
+}

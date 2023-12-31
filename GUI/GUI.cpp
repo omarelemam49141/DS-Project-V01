@@ -138,6 +138,10 @@ ActionType GUI::MapInputToActionType() const
 			case ITM_SWITCH_TO_PLAY_MODE: return TO_PLAY;
 			case ITM_SAVE:return SAVE;
 			case ITM_LOAD:return LOAD;
+
+			
+
+
 			case ITM_EXIT: return EXIT;	
 			
 			default: return EMPTY;	//A click on empty place in desgin toolbar
@@ -174,6 +178,9 @@ ActionType GUI::MapInputToActionType() const
 				//case ITM_CHNG_BK_CLR: return CHNG_BK_CLR;
 				//case ITM_SWITCH_TO_PLAY_MODE: return TO_PLAY;
 			case ITM_SWITCH_TO_DRAW_MODE: return TO_DRAW;
+			case ITM_GAME1:return ACTION_PLAY_TYPE;
+			case ITM_GAME2:return ACTION_PLAY_FILL;
+			case ITM_GAME3:return ACTION_PLAY_TYPEFILL;
 
 				//case ITM_EXIT: return EXIT;
 
@@ -451,3 +458,14 @@ GUI::~GUI()
 	delete pWind;
 }
 
+
+
+void GUI::getPointInsideDrawArea(int& x, int& y)
+{
+	GetPointClicked(x, y);
+	while ((y < UI.StatusBarHeight || y > UI.height - UI.StatusBarHeight))
+	{
+		PrintMessage("Please, Choose a valid Point");
+		GetPointClicked(x, y);
+	}
+}

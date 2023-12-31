@@ -64,6 +64,23 @@ public:
 	CFigure* GetSelectedFigure() const;
 
 	int GetSelectedCount();
+
+
+
+	int ApplicationManager::numberOfShapes();
+	string ApplicationManager::getRandomExistingType();
+	int ApplicationManager::countByType(string type);
+	int ApplicationManager::getFigCount() const;
+	CFigure* DrawnFigs(int i) const;
+	string ApplicationManager::getRandomExistingColor();
+	string ApplicationManager::getColorName(color c);
+	int ApplicationManager::countByColor(string color);
+	void ApplicationManager::getRandomColorAndType(string& type, string& color);
+	int ApplicationManager::countByTypeAndColor(string type, string color);
+
+
+
+
 };
 
 #endif
