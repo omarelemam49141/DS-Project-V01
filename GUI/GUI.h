@@ -59,6 +59,9 @@ public:
 	bool ExceedDrawingArea(int minX, int minY, int maxX, int maxY);
 	double GUI::GetNumber() const; //get a number for resizing
 
+
+	void getPointInsideDrawArea(int& x, int& y); // get point inside draw area
+
 };
 
 

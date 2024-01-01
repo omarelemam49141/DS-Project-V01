@@ -1,7 +1,7 @@
 #include "ActionSwitchToPlay.h"
 // #include "ActionSave.h"
 // #include "ActionLoad.h"
-#include "..\ProjectTeamMerge - 3\GUI\GUI.h"
+#include "GUI\GUI.h"
 #include "ApplicationManager.h"
 
 ActionSwitchToPlay::ActionSwitchToPlay(ApplicationManager* pMan) :Action(pMan)

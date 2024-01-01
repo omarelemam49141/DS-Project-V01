@@ -19,6 +19,8 @@
 #include <string>
 #include "ActionSwitchToPlay.h"
 #include "ActionSwitchToDraw.h"
+#include "ActionPlayByFill.h"
+#include "ActionPlayByType.h"
 
 //Constructor
 ApplicationManager::ApplicationManager()
@@ -124,6 +126,15 @@ Action* ApplicationManager::CreateAction(ActionType ActType)
 		case TO_DRAW:
 			newAct = new ActionSwitchToDraw(this);
 			break;
+
+		/////////////////////////////////////
+		case ACTION_PLAY_TYPE:
+			newAct = new ActionPlayByType(this);
+			break;
+		case ACTION_PLAY_FILL:
+			newAct = new ActionPlayByFill(this);
+			break;
+		
 		case EXIT:
 			///create ExitAction here
 			break;
@@ -360,3 +371,85 @@ ApplicationManager::~ApplicationManager()
 	
 }
 
+
+
+int ApplicationManager::numberOfShapes()
+{
+	return FigCount;
+}
+int ApplicationManager::countByType(string type) {
+	int count = 0;
+	for (int i = 0; i < FigCount; i++)
+		if (FigList[i]->getShapeType() == type)
+			count++;
+	return count;
+}
+int ApplicationManager::getFigCount() const
+{
+	return FigCount;
+
+}
+CFigure* ApplicationManager::DrawnFigs(int i) const
+{
+	return FigList[i];
+}
+
+string ApplicationManager::getRandomExistingColor()
+{
+	//generating Random index 
+	int RandomIndex = rand() % FigCount;
+
+	color tempClr = FigList[RandomIndex]->getFillColor();
+
+	return getColorName(tempClr);
+
+}
+
+int ApplicationManager::countByColor(string color) {
+	int count = 0;
+	for (int i = 0; i < FigCount; i++)
+		if (getColorName(FigList[i]->getFillColor()) == color)
+			count++;
+	return count;
+}
+
+
+string ApplicationManager::getColorName(color c)
+{
+	if ((c.ucBlue == BLACK.ucBlue) && (c.ucGreen == BLACK.ucGreen) && (c.ucRed == BLACK.ucRed))
+		return "BLACK";
+	if ((c.ucBlue == PINK.ucBlue) && (c.ucGreen == PINK.ucGreen) && (c.ucRed == PINK.ucRed))
+		return "PINK";
+	if ((c.ucBlue == LIGHTBLUE.ucBlue) && (c.ucGreen == LIGHTBLUE.ucGreen) && (c.ucRed == LIGHTBLUE.ucRed))
+		return "LIGHTBLUE";
+	if ((c.ucBlue == MAROON.ucBlue) && (c.ucGreen == MAROON.ucGreen) && (c.ucRed == MAROON.ucRed))
+		return "MAROON";
+	if ((c.ucBlue == ORANGE.ucBlue) && (c.ucGreen == ORANGE.ucGreen) && (c.ucRed == ORANGE.ucRed))
+		return "ORANGE";
+	if ((c.ucBlue == BLUE.ucBlue) && (c.ucGreen == BLUE.ucGreen) && (c.ucRed == BLUE.ucRed))
+		return "BLUE";
+	if ((c.ucBlue == WHITE.ucBlue) && (c.ucGreen == WHITE.ucGreen) && (c.ucRed == WHITE.ucRed))
+		return "WHITE";
+	if ((c.ucBlue == RED.ucBlue) && (c.ucGreen == RED.ucGreen) && (c.ucRed == RED.ucRed))
+		return "RED";
+	if ((c.ucBlue == YELLOW.ucBlue) && (c.ucGreen == YELLOW.ucGreen) && (c.ucRed == YELLOW.ucRed))
+		return "YELLOW";
+	if ((c.ucBlue == GREEN.ucBlue) && (c.ucGreen == GREEN.ucGreen) && (c.ucRed == GREEN.ucRed))
+		return "GREEN";
+	return "NO-FILL";
+}
+
+void ApplicationManager::getRandomColorAndType(string& type, string& color)
+{
+	//generating Random index
+	int RandomIndex = rand() % FigCount;
+	type = FigList[RandomIndex]->getShapeType();
+	color = getColorName(FigList[RandomIndex]->getFillColor());
+}
+int ApplicationManager::countByTypeAndColor(string type, string color) {
+	int count = 0;
+	for (int i = 0; i < FigCount; i++)
+		if (FigList[i]->getShapeType() == type && getColorName(FigList[i]->getFillColor()) == color)
+			count++;
+	return count;
+}

@@ -111,3 +111,8 @@ void CEllipse::Resize(GUI* pGUI, float size) {
 }
 
 //omar return the details
+
+string CEllipse::getShapeType()
+{
+    return "Ellipse";
+}
