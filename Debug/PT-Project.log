@@ -1,8 +1,98 @@
 ﻿cl : command line  warning D9035: option 'Gm' has been deprecated and will be removed in a future release
-<<<<<<< HEAD
-  ActionChngFillClr.cpp
-  PT-Project.vcxproj -> D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - Copy - Copy\Debug\PT Project.exe
-=======
+  main.cpp
+  ActionAddHexagon.cpp
+D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - Copy - Copy\ActionAddHexagon.cpp(56,38): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - Copy - Copy\ActionAddHexagon.cpp(57,38): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+  ApplicationManager.cpp
+  GUI.cpp
+  ActionAddSquare.cpp
+  CSquare.cpp
+D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - Copy - Copy\Figures\CSquare.cpp(96,17): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+  CFigure.cpp
+  colors.cpp
+  windowinput.cpp
+  mousequeue.cpp
+  keyqueue.cpp
+  image.cpp
+D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - Copy - Copy\CMUgraphicsLib\image.cpp(115,29): warning C4018: '<': signed/unsigned mismatch
+  CMUgraphics.cpp
+D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - Copy - Copy\CMUgraphicsLib\CMUgraphics.cpp(257,9): warning C4101: 'iX': unreferenced local variable
+D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - Copy - Copy\CMUgraphicsLib\CMUgraphics.cpp(257,13): warning C4101: 'iY': unreferenced local variable
+D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - Copy - Copy\CMUgraphicsLib\CMUgraphics.cpp(751,3): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - Copy - Copy\CMUgraphicsLib\CMUgraphics.cpp(1164,2): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - Copy - Copy\CMUgraphicsLib\CMUgraphics.cpp(1171,2): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - Copy - Copy\CMUgraphicsLib\CMUgraphics.cpp(1202,2): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - Copy - Copy\CMUgraphicsLib\CMUgraphics.cpp(1210,2): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - Copy - Copy\CMUgraphicsLib\CMUgraphics.cpp(1357,23): warning C4018: '>': signed/unsigned mismatch
+  auxil.cpp
+  ActionChngFigureClr.cpp
+  CHexagon.cpp
+  CEllipse.cpp
+D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - Copy - Copy\CEllipse.cpp(78,29): warning C4305: 'initializing': truncation from 'double' to 'float'
+D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - Copy - Copy\CEllipse.cpp(82,62): warning C4305: '=': truncation from 'double' to 'float'
+D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - Copy - Copy\CEllipse.cpp(87,18): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - Copy - Copy\CEllipse.cpp(88,18): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - Copy - Copy\CEllipse.cpp(91,23): warning C4244: '-=': conversion from 'float' to 'int', possible loss of data
+D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - Copy - Copy\CEllipse.cpp(92,23): warning C4244: '+=': conversion from 'float' to 'int', possible loss of data
+D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - Copy - Copy\CEllipse.cpp(93,23): warning C4244: '-=': conversion from 'float' to 'int', possible loss of data
+D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - Copy - Copy\CEllipse.cpp(94,23): warning C4244: '+=': conversion from 'float' to 'int', possible loss of data
+  ActionPlayByFillType.cpp
+  ActionSwitchToPlay.cpp
   ActionSwitchToDraw.cpp
-D:\pro\DS-Project-V01\ActionSwitchToDraw.cpp(2,10): error C1083: Cannot open include file: '..\ProjectTeamMerge - 3\GUI\GUI.h': No such file or directory
->>>>>>> c50c728c988bc389410c178103705bc966c88c01
+  Generating Code...
+  Compiling...
+  ActionSendToFront.cpp
+  ActionSendToBack.cpp
+  ActionSelect.cpp
+  ActionSave.cpp
+  ActionResize.cpp
+  ActionPlayByType.cpp
+  ActionPlayByFill.cpp
+  ActionLoad.cpp
+  ActionDelete.cpp
+  ActionChngFillClr.cpp
+  ActionChngDrawClr.cpp
+  ActionChngBGClr.cpp
+  ActionAddEllipse.cpp
+  Generating Code...
+cl : command line  warning D9035: option 'Gm' has been deprecated and will be removed in a future release
+  jutils.c
+  jquant2.c
+  jquant1.c
+  jmemnobs.c
+  jmemmgr.c
+D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - Copy - Copy\CMUgraphicsLib\jpeg\jmemmgr.c(1103,19): warning C4996: 'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - Copy - Copy\CMUgraphicsLib\jpeg\jmemmgr.c(1106,11): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  jidctred.c
+  jidctint.c
+  jidctfst.c
+  jidctflt.c
+  jerror.c
+D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - Copy - Copy\CMUgraphicsLib\jpeg\jerror.c(169,5): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - Copy - Copy\CMUgraphicsLib\jpeg\jerror.c(171,5): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  jdtrans.c
+  jdsample.c
+  jdpostct.c
+  jdphuff.c
+  jdmerge.c
+  jdmaster.c
+  jdmarker.c
+  jdmainct.c
+  jdinput.c
+  jdhuff.c
+  Generating Code...
+  Compiling...
+  jddctmgr.c
+  jdcolor.c
+  jdcoefct.c
+  jdatasrc.c
+  jdapistd.c
+  jdapimin.c
+  jcparam.c
+  jcomapi.c
+  jpegload.c
+D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - Copy - Copy\CMUgraphicsLib\jpegload.c(23,12): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  Generating Code...
+ActionAddEllipse.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+ActionPlayByType.obj : error LNK2019: unresolved external symbol "public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __thiscall ApplicationManager::getRandomExistingType(void)" (?getRandomExistingType@ApplicationManager@@QAE?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ) referenced in function "public: virtual void __thiscall ActionPlayByType::Execute(void)" (?Execute@ActionPlayByType@@UAEXXZ)
+.\Debug\PT Project.exe : fatal error LNK1120: 1 unresolved externals
