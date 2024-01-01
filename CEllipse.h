@@ -24,4 +24,5 @@ public:
 
 	//nyra
 	virtual void Resize(GUI* pGUI, float size);
+	string CEllipse::getShapeType();
 };

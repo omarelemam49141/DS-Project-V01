@@ -21,6 +21,7 @@ public:
 	virtual void Load(ifstream&);
 	//nyra
 	virtual void Resize(GUI* pGUI, float size);
+	string CSquare::getShapeType();
 };
 
 #endif

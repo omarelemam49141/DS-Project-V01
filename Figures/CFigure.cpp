@@ -62,3 +62,17 @@ bool CFigure::IsHidden() {
 void CFigure::show() {
 	FigGfxInfo.IsHidden = false;
 };
+
+void CFigure::Hide()
+{
+	PlayHidden = true;
+}
+void CFigure::ShowW()
+{
+	PlayHidden = false;
+}
+
+color CFigure::getFillColor()
+{
+	return FigGfxInfo.isFilled ? FigGfxInfo.FillClr : NULL;
+}

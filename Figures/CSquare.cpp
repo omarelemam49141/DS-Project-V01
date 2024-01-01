@@ -95,3 +95,9 @@ void CSquare::Resize(GUI* pGUI, float size) {
 	// Resize the square by updating its length
 	this->length = newLength;
 }
+
+
+string CSquare::getShapeType()
+{
+	return "Square";
+}
