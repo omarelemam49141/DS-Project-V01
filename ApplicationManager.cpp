@@ -21,6 +21,7 @@
 #include "ActionSwitchToDraw.h"
 #include "ActionPlayByFill.h"
 #include "ActionPlayByType.h"
+#include "Actions/ActionPlayByFillType.h"
 
 //Constructor
 ApplicationManager::ApplicationManager()
@@ -133,6 +134,9 @@ Action* ApplicationManager::CreateAction(ActionType ActType)
 			break;
 		case ACTION_PLAY_FILL:
 			newAct = new ActionPlayByFill(this);
+			break;
+		case ACTION_PLAY_TYPEFILL:
+			newAct = new ActionPlayByFillType(this);
 			break;
 		
 		case EXIT:
@@ -402,6 +406,16 @@ string ApplicationManager::getRandomExistingColor()
 	color tempClr = FigList[RandomIndex]->getFillColor();
 
 	return getColorName(tempClr);
+
+}
+string ApplicationManager::getRandomExistingType()
+{
+	//generating Random index 
+	int RandomIndex = rand() % FigCount;
+
+	string type = FigList[RandomIndex]->getShapeType();
+
+	return type;
 
 }
 

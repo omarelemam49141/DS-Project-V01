@@ -4,6 +4,8 @@ D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - Copy - Copy\ActionChngDrawC
 D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - Copy - Copy\ActionChngFillClr.cpp;D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - Copy - Copy\Debug\ActionChngFillClr.obj
 D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - Copy - Copy\ActionDelete.cpp;D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - Copy - Copy\Debug\ActionDelete.obj
 D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - Copy - Copy\ActionLoad.cpp;D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - Copy - Copy\Debug\ActionLoad.obj
+D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - Copy - Copy\ActionPlayByFill.cpp;D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - Copy - Copy\Debug\ActionPlayByFill.obj
+D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - Copy - Copy\ActionPlayByType.cpp;D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - Copy - Copy\Debug\ActionPlayByType.obj
 D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - Copy - Copy\ActionResize.cpp;D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - Copy - Copy\Debug\ActionResize.obj
 D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - Copy - Copy\ActionSave.cpp;D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - Copy - Copy\Debug\ActionSave.obj
 D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - Copy - Copy\ActionSelect.cpp;D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - Copy - Copy\Debug\ActionSelect.obj
@@ -11,6 +13,7 @@ D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - Copy - Copy\ActionSendToBac
 D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - Copy - Copy\ActionSendToFront.cpp;D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - Copy - Copy\Debug\ActionSendToFront.obj
 D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - Copy - Copy\ActionSwitchToDraw.cpp;D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - Copy - Copy\Debug\ActionSwitchToDraw.obj
 D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - Copy - Copy\ActionSwitchToPlay.cpp;D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - Copy - Copy\Debug\ActionSwitchToPlay.obj
+D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - Copy - Copy\Actions\ActionPlayByFillType.cpp;D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - Copy - Copy\Debug\ActionPlayByFillType.obj
 D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - Copy - Copy\CEllipse.cpp;D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - Copy - Copy\Debug\CEllipse.obj
 D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - Copy - Copy\CHexagon.cpp;D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - Copy - Copy\Debug\CHexagon.obj
 D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - Copy - Copy\ActionChngFigureClr.cpp;D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - Copy - Copy\Debug\ActionChngFigureClr.obj
