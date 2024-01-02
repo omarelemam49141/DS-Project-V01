@@ -157,7 +157,7 @@ ActionType GUI::MapInputToActionType() const
 		//[3] User clicks on the status bar
 		return STATUS;
 	}
-	else	//GUI is in PLAY mode
+	else if (UI.InterfaceMode == MODE_PLAY)	//GUI is in PLAY mode
 	{
 		//[1] If user clicks on the Toolbar
 		if (y >= 0 && y < UI.ToolBarHeight)
@@ -199,7 +199,42 @@ ActionType GUI::MapInputToActionType() const
 		///TODO:
 		//perform checks similar to Draw mode checks above
 		//and return the correspoding action
+	}
+	else //mode colorize 
+	{
+		//[1] If user clicks on the Toolbar
+		if (y >= 0 && y < UI.ToolBarHeight)
+		{
+			//Check whick Menu item was clicked
+			//==> This assumes that menu items are lined up horizontally <==
+			int ClickedItemOrder = (x / UI.MenuItemWidth);
+			//Divide x coord of the point clicked by the menu item width (int division)
+			//if division result is 0 ==> first item is clicked, if 1 ==> 2nd item and so on
 
+			switch (ClickedItemOrder)
+			{
+			case ITM_RED: return ACTION_RED;
+			case ITM_BLUE:return ACTION_BLUE;
+			case ITM_GREEN:return ACTION_GREEN;
+			case ITM_PINK:return ACTION_PINK;
+			case ITM_ORANGE:return ACTION_ORANGE;
+				//case ITM_EXIT: return EXIT;
+
+			default: return EMPTY;	//A click on empty place in desgin toolbar
+			}
+		}
+
+		//[2] User clicks on the drawing area
+		if (y >= UI.ToolBarHeight && y < UI.height - UI.StatusBarHeight)
+		{
+			return DRAWING_AREA;
+		}
+
+		//[3] User clicks on the status bar
+		return STATUS;
+		///TODO:
+		//perform checks similar to Draw mode checks above
+		//and return the correspoding action
 	}
 
 }
@@ -212,7 +247,7 @@ window* GUI::CreateWind(int w, int h, int x, int y) const
 	window* pW = new window(w, h, x, y);
 	pW->SetBrush(UI.BkGrndColor);
 	pW->SetPen(UI.BkGrndColor, 1);
-	pW->DrawRectangle(0, UI.ToolBarHeight, w, h);	
+	pW->DrawRectangle(x,y, w, h);	
 	return pW;
 }
 //////////////////////////////////////////////////////////////////////////////////////////
@@ -246,7 +281,7 @@ void GUI::CreateDrawToolBar() const
 	MenuItemImages[ITM_ELPS] = "images\\MenuItems\\Menu_Elps.jpg";
 	MenuItemImages[ITM_HEX] = "images\\MenuItems\\Menu_HEX.jpeg";
 	MenuItemImages[ITM_CHNG_DRAW_CLR] = "images\\MenuItems\\Menu_border.jpg";
-	MenuItemImages[ITM_CHNG_FILL_CLR] = "images\\MenuItems\\Menu_fill.jpg";
+	MenuItemImages[ITM_CHNG_FILL_CLR] = "images\\MenuItems\\fillimg.jpg";
 	MenuItemImages[ITM_CHNG_BK_CLR] = "images\\MenuItems\\Menu_bg.jpeg";
 	MenuItemImages[ITM_CHNG_FIG_CLR] = "images\\MenuItems\\chgobjclr.jpg";
 	MenuItemImages[ITM_DELETE] = "images\\MenuItems\\delete.jpeg";
@@ -273,6 +308,7 @@ void GUI::CreateDrawToolBar() const
 	pWind->DrawLine(0, UI.ToolBarHeight, UI.width, UI.ToolBarHeight);	
 
 }
+
 
 //////////////////////////////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////////////////////////////
@@ -306,6 +342,35 @@ void GUI::CreatePlayToolBar() const
 	pWind->SetPen(RED, 3);
 	pWind->DrawLine(0, UI.ToolBarHeight, UI.width, UI.ToolBarHeight);
 
+}
+
+void GUI::CreateColorToolBar(char colorMode) const
+{
+	UI.InterfaceMode = MODE_COLOR;
+	UI.ColorMode = colorMode;
+	//You can draw the tool bar icons in any way you want.
+	//Below is one possible way
+
+	//First prepare List of images for each menu item
+	//To control the order of these images in the menu, 
+	//reoder them in UI_Info.h ==> enum DrawMenuItem
+	string MenuItemImages[COLOR_ITM_COUNT];
+	//MenuItemImages[ITM_SQUR2] = "images\\MenuItems\\Menu_Sqr.jpg";
+	MenuItemImages[ITM_RED] = "images\\MenuItems\\red.jpg";
+	MenuItemImages[ITM_BLUE] = "images\\MenuItems\\blue.jpg";
+	MenuItemImages[ITM_GREEN] = "images\\MenuItems\\green.jpg";
+	MenuItemImages[ITM_PINK] = "images\\MenuItems\\pink.jpg";
+	MenuItemImages[ITM_ORANGE] = "images\\MenuItems\\yellow.jpg";
+	//MenuItemImages[ITM_EXIT] = "images\\MenuItems\\Menu_Exit.jpg";
+	//TODO: Prepare images for each menu item and add it to the list
+
+	//Draw menu item one image at a time
+	for (int i = 0; i < COLOR_ITM_COUNT; i++)
+		pWind->DrawImage(MenuItemImages[i], i * UI.MenuItemWidth, 0, UI.MenuItemWidth, UI.ToolBarHeight);
+
+	//Draw a line under the toolbar
+	pWind->SetPen(BLACK, 3);
+	pWind->DrawLine(0, UI.ToolBarHeight, UI.width, UI.ToolBarHeight);
 }
 
 void GUI::ClearToolBar() const
@@ -370,6 +435,25 @@ void GUI::setCrntFillColor(color clr)	//set current drwawing color
 void GUI::setCrntBGColor(color clr)	//set current drwawing color
 {
 	UI.BkGrndColor = clr;
+}
+
+void GUI::ChangeColors(color clr)
+{
+	switch (UI.ColorMode)
+	{
+	case 'd':
+		setCrntDrawColor(clr);
+		break;
+	case 'f':
+		setCrntFillColor(clr);
+		break;
+	case 'b':
+		setCrntBGColor(clr);
+		ClearDrawArea();
+		break;
+	default:
+		break;
+	}
 }
 
 //======================================================================================//

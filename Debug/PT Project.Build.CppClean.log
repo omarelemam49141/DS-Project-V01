@@ -1,240 +1,142 @@
-d:\iti\datastructure\version2\projectteammerge - 3\debug\pt project.bsc
-d:\iti\datastructure\projectteammerge - 3\debug\vc143.pdb
-d:\iti\datastructure\projectteammerge - 3\debug\vc143.idb
-d:\iti\datastructure\projectteammerge - 3\debug\main.sbr
-d:\iti\datastructure\projectteammerge - 3\debug\actionaddhexagon.sbr
-d:\iti\datastructure\projectteammerge - 3\debug\applicationmanager.sbr
-d:\iti\datastructure\projectteammerge - 3\debug\gui.sbr
-d:\iti\datastructure\projectteammerge - 3\debug\actionaddsquare.sbr
-d:\iti\datastructure\projectteammerge - 3\debug\csquare.sbr
-d:\iti\datastructure\projectteammerge - 3\debug\cfigure.sbr
-d:\iti\datastructure\projectteammerge - 3\debug\windowinput.sbr
-d:\iti\datastructure\projectteammerge - 3\debug\mousequeue.sbr
-d:\iti\datastructure\projectteammerge - 3\debug\keyqueue.sbr
-d:\iti\datastructure\projectteammerge - 3\debug\image.sbr
-d:\iti\datastructure\projectteammerge - 3\debug\cmugraphics.sbr
-d:\iti\datastructure\projectteammerge - 3\debug\auxil.sbr
-d:\iti\datastructure\projectteammerge - 3\debug\actionchngfigureclr.sbr
-d:\iti\datastructure\projectteammerge - 3\debug\chexagon.sbr
-d:\iti\datastructure\projectteammerge - 3\debug\cellipse.sbr
-d:\iti\datastructure\projectteammerge - 3\debug\actionselect.sbr
-d:\iti\datastructure\projectteammerge - 3\debug\actiondelete.sbr
-d:\iti\datastructure\projectteammerge - 3\debug\actionchngfillclr.sbr
-d:\iti\datastructure\projectteammerge - 3\debug\actionchngdrawclr.sbr
-d:\iti\datastructure\projectteammerge - 3\debug\actionchngdrawclr.obj
-d:\iti\datastructure\projectteammerge - 3\debug\actionchngfillclr.obj
-d:\iti\datastructure\projectteammerge - 3\debug\actiondelete.obj
-d:\iti\datastructure\projectteammerge - 3\debug\actionselect.obj
-d:\iti\datastructure\projectteammerge - 3\debug\cellipse.obj
-d:\iti\datastructure\projectteammerge - 3\debug\chexagon.obj
-d:\iti\datastructure\projectteammerge - 3\debug\actionchngfigureclr.obj
-d:\iti\datastructure\projectteammerge - 3\debug\auxil.obj
-d:\iti\datastructure\projectteammerge - 3\debug\cmugraphics.obj
-d:\iti\datastructure\projectteammerge - 3\debug\image.obj
-d:\iti\datastructure\projectteammerge - 3\debug\keyqueue.obj
-d:\iti\datastructure\projectteammerge - 3\debug\mousequeue.obj
-d:\iti\datastructure\projectteammerge - 3\debug\windowinput.obj
-d:\iti\datastructure\projectteammerge - 3\debug\cfigure.obj
-d:\iti\datastructure\projectteammerge - 3\debug\csquare.obj
-d:\iti\datastructure\projectteammerge - 3\debug\actionaddsquare.obj
-d:\iti\datastructure\projectteammerge - 3\debug\gui.obj
-d:\iti\datastructure\projectteammerge - 3\debug\applicationmanager.obj
-d:\iti\datastructure\projectteammerge - 3\debug\actionaddhexagon.obj
-d:\iti\datastructure\projectteammerge - 3\debug\main.obj
-d:\iti\datastructure\projectteammerge - 3\debug\actionchngbgclr.sbr
-d:\iti\datastructure\projectteammerge - 3\debug\actionaddellipse.sbr
-d:\iti\datastructure\projectteammerge - 3\debug\actionaddellipse.obj
-d:\iti\datastructure\projectteammerge - 3\debug\actionchngbgclr.obj
-d:\iti\datastructure\projectteammerge - 3\debug\jutils.sbr
-d:\iti\datastructure\projectteammerge - 3\debug\jquant2.sbr
-d:\iti\datastructure\projectteammerge - 3\debug\jquant1.sbr
-d:\iti\datastructure\projectteammerge - 3\debug\jmemnobs.sbr
-d:\iti\datastructure\projectteammerge - 3\debug\jmemmgr.sbr
-d:\iti\datastructure\projectteammerge - 3\debug\jidctred.sbr
-d:\iti\datastructure\projectteammerge - 3\debug\jidctint.sbr
-d:\iti\datastructure\projectteammerge - 3\debug\jidctfst.sbr
-d:\iti\datastructure\projectteammerge - 3\debug\jidctflt.sbr
-d:\iti\datastructure\projectteammerge - 3\debug\jerror.sbr
-d:\iti\datastructure\projectteammerge - 3\debug\jdtrans.sbr
-d:\iti\datastructure\projectteammerge - 3\debug\jdsample.sbr
-d:\iti\datastructure\projectteammerge - 3\debug\jdpostct.sbr
-d:\iti\datastructure\projectteammerge - 3\debug\jdphuff.sbr
-d:\iti\datastructure\projectteammerge - 3\debug\jdmerge.sbr
-d:\iti\datastructure\projectteammerge - 3\debug\jdmaster.sbr
-d:\iti\datastructure\projectteammerge - 3\debug\jdmarker.sbr
-d:\iti\datastructure\projectteammerge - 3\debug\jdmainct.sbr
-d:\iti\datastructure\projectteammerge - 3\debug\jdinput.sbr
-d:\iti\datastructure\projectteammerge - 3\debug\jdhuff.sbr
-d:\iti\datastructure\projectteammerge - 3\debug\jdhuff.obj
-d:\iti\datastructure\projectteammerge - 3\debug\jdinput.obj
-d:\iti\datastructure\projectteammerge - 3\debug\jdmainct.obj
-d:\iti\datastructure\projectteammerge - 3\debug\jdmarker.obj
-d:\iti\datastructure\projectteammerge - 3\debug\jdmaster.obj
-d:\iti\datastructure\projectteammerge - 3\debug\jdmerge.obj
-d:\iti\datastructure\projectteammerge - 3\debug\jdphuff.obj
-d:\iti\datastructure\projectteammerge - 3\debug\jdpostct.obj
-d:\iti\datastructure\projectteammerge - 3\debug\jdsample.obj
-d:\iti\datastructure\projectteammerge - 3\debug\jdtrans.obj
-d:\iti\datastructure\projectteammerge - 3\debug\jerror.obj
-d:\iti\datastructure\projectteammerge - 3\debug\jidctflt.obj
-d:\iti\datastructure\projectteammerge - 3\debug\jidctfst.obj
-d:\iti\datastructure\projectteammerge - 3\debug\jidctint.obj
-d:\iti\datastructure\projectteammerge - 3\debug\jidctred.obj
-d:\iti\datastructure\projectteammerge - 3\debug\jmemmgr.obj
-d:\iti\datastructure\projectteammerge - 3\debug\jmemnobs.obj
-d:\iti\datastructure\projectteammerge - 3\debug\jquant1.obj
-d:\iti\datastructure\projectteammerge - 3\debug\jquant2.obj
-d:\iti\datastructure\projectteammerge - 3\debug\jutils.obj
-d:\iti\datastructure\projectteammerge - 3\debug\jddctmgr.sbr
-d:\iti\datastructure\projectteammerge - 3\debug\jdcolor.sbr
-d:\iti\datastructure\projectteammerge - 3\debug\jdcoefct.sbr
-d:\iti\datastructure\projectteammerge - 3\debug\jdatasrc.sbr
-d:\iti\datastructure\projectteammerge - 3\debug\jdapistd.sbr
-d:\iti\datastructure\projectteammerge - 3\debug\jdapimin.sbr
-d:\iti\datastructure\projectteammerge - 3\debug\jcparam.sbr
-d:\iti\datastructure\projectteammerge - 3\debug\jcomapi.sbr
-d:\iti\datastructure\projectteammerge - 3\debug\jpegload.sbr
-d:\iti\datastructure\projectteammerge - 3\debug\jpegload.obj
-d:\iti\datastructure\projectteammerge - 3\debug\jcomapi.obj
-d:\iti\datastructure\projectteammerge - 3\debug\jcparam.obj
-d:\iti\datastructure\projectteammerge - 3\debug\jdapimin.obj
-d:\iti\datastructure\projectteammerge - 3\debug\jdapistd.obj
-d:\iti\datastructure\projectteammerge - 3\debug\jdatasrc.obj
-d:\iti\datastructure\projectteammerge - 3\debug\jdcoefct.obj
-d:\iti\datastructure\projectteammerge - 3\debug\jdcolor.obj
-d:\iti\datastructure\projectteammerge - 3\debug\jddctmgr.obj
-d:\iti\datastructure\version2\projectteammerge - 3\debug\vc143.pdb
-d:\iti\datastructure\version2\projectteammerge - 3\debug\vc143.idb
-d:\iti\datastructure\version2\projectteammerge - 3\debug\main.sbr
-d:\iti\datastructure\version2\projectteammerge - 3\debug\actionaddhexagon.sbr
-d:\iti\datastructure\version2\projectteammerge - 3\debug\applicationmanager.sbr
-d:\iti\datastructure\version2\projectteammerge - 3\debug\gui.sbr
-d:\iti\datastructure\version2\projectteammerge - 3\debug\actionaddsquare.sbr
-d:\iti\datastructure\version2\projectteammerge - 3\debug\csquare.sbr
-d:\iti\datastructure\version2\projectteammerge - 3\debug\cfigure.sbr
-d:\iti\datastructure\version2\projectteammerge - 3\debug\windowinput.sbr
-d:\iti\datastructure\version2\projectteammerge - 3\debug\mousequeue.sbr
-d:\iti\datastructure\version2\projectteammerge - 3\debug\keyqueue.sbr
-d:\iti\datastructure\version2\projectteammerge - 3\debug\image.sbr
-d:\iti\datastructure\version2\projectteammerge - 3\debug\cmugraphics.sbr
-d:\iti\datastructure\version2\projectteammerge - 3\debug\auxil.sbr
-d:\iti\datastructure\version2\projectteammerge - 3\debug\actionchngfigureclr.sbr
-d:\iti\datastructure\version2\projectteammerge - 3\debug\chexagon.sbr
-d:\iti\datastructure\version2\projectteammerge - 3\debug\cellipse.sbr
-d:\iti\datastructure\version2\projectteammerge - 3\debug\actionselect.sbr
-d:\iti\datastructure\version2\projectteammerge - 3\debug\actiondelete.sbr
-d:\iti\datastructure\version2\projectteammerge - 3\debug\actionchngfillclr.sbr
-d:\iti\datastructure\version2\projectteammerge - 3\debug\actionchngdrawclr.sbr
-d:\iti\datastructure\version2\projectteammerge - 3\debug\actionchngdrawclr.obj
-d:\iti\datastructure\version2\projectteammerge - 3\debug\actionchngfillclr.obj
-d:\iti\datastructure\version2\projectteammerge - 3\debug\actiondelete.obj
-d:\iti\datastructure\version2\projectteammerge - 3\debug\actionselect.obj
-d:\iti\datastructure\version2\projectteammerge - 3\debug\cellipse.obj
-d:\iti\datastructure\version2\projectteammerge - 3\debug\chexagon.obj
-d:\iti\datastructure\version2\projectteammerge - 3\debug\actionchngfigureclr.obj
-d:\iti\datastructure\version2\projectteammerge - 3\debug\auxil.obj
-d:\iti\datastructure\version2\projectteammerge - 3\debug\cmugraphics.obj
-d:\iti\datastructure\version2\projectteammerge - 3\debug\image.obj
-d:\iti\datastructure\version2\projectteammerge - 3\debug\keyqueue.obj
-d:\iti\datastructure\version2\projectteammerge - 3\debug\mousequeue.obj
-d:\iti\datastructure\version2\projectteammerge - 3\debug\windowinput.obj
-d:\iti\datastructure\version2\projectteammerge - 3\debug\cfigure.obj
-d:\iti\datastructure\version2\projectteammerge - 3\debug\csquare.obj
-d:\iti\datastructure\version2\projectteammerge - 3\debug\actionaddsquare.obj
-d:\iti\datastructure\version2\projectteammerge - 3\debug\gui.obj
-d:\iti\datastructure\version2\projectteammerge - 3\debug\applicationmanager.obj
-d:\iti\datastructure\version2\projectteammerge - 3\debug\actionaddhexagon.obj
-d:\iti\datastructure\version2\projectteammerge - 3\debug\main.obj
-d:\iti\datastructure\version2\projectteammerge - 3\debug\actionchngbgclr.sbr
-d:\iti\datastructure\version2\projectteammerge - 3\debug\actionaddellipse.sbr
-d:\iti\datastructure\version2\projectteammerge - 3\debug\actionaddellipse.obj
-d:\iti\datastructure\version2\projectteammerge - 3\debug\actionchngbgclr.obj
-d:\iti\datastructure\version2\projectteammerge - 3\debug\jutils.sbr
-d:\iti\datastructure\version2\projectteammerge - 3\debug\jquant2.sbr
-d:\iti\datastructure\version2\projectteammerge - 3\debug\jquant1.sbr
-d:\iti\datastructure\version2\projectteammerge - 3\debug\jmemnobs.sbr
-d:\iti\datastructure\version2\projectteammerge - 3\debug\jmemmgr.sbr
-d:\iti\datastructure\version2\projectteammerge - 3\debug\jidctred.sbr
-d:\iti\datastructure\version2\projectteammerge - 3\debug\jidctint.sbr
-d:\iti\datastructure\version2\projectteammerge - 3\debug\jidctfst.sbr
-d:\iti\datastructure\version2\projectteammerge - 3\debug\jidctflt.sbr
-d:\iti\datastructure\version2\projectteammerge - 3\debug\jerror.sbr
-d:\iti\datastructure\version2\projectteammerge - 3\debug\jdtrans.sbr
-d:\iti\datastructure\version2\projectteammerge - 3\debug\jdsample.sbr
-d:\iti\datastructure\version2\projectteammerge - 3\debug\jdpostct.sbr
-d:\iti\datastructure\version2\projectteammerge - 3\debug\jdphuff.sbr
-d:\iti\datastructure\version2\projectteammerge - 3\debug\jdmerge.sbr
-d:\iti\datastructure\version2\projectteammerge - 3\debug\jdmaster.sbr
-d:\iti\datastructure\version2\projectteammerge - 3\debug\jdmarker.sbr
-d:\iti\datastructure\version2\projectteammerge - 3\debug\jdmainct.sbr
-d:\iti\datastructure\version2\projectteammerge - 3\debug\jdinput.sbr
-d:\iti\datastructure\version2\projectteammerge - 3\debug\jdhuff.sbr
-d:\iti\datastructure\version2\projectteammerge - 3\debug\jdhuff.obj
-d:\iti\datastructure\version2\projectteammerge - 3\debug\jdinput.obj
-d:\iti\datastructure\version2\projectteammerge - 3\debug\jdmainct.obj
-d:\iti\datastructure\version2\projectteammerge - 3\debug\jdmarker.obj
-d:\iti\datastructure\version2\projectteammerge - 3\debug\jdmaster.obj
-d:\iti\datastructure\version2\projectteammerge - 3\debug\jdmerge.obj
-d:\iti\datastructure\version2\projectteammerge - 3\debug\jdphuff.obj
-d:\iti\datastructure\version2\projectteammerge - 3\debug\jdpostct.obj
-d:\iti\datastructure\version2\projectteammerge - 3\debug\jdsample.obj
-d:\iti\datastructure\version2\projectteammerge - 3\debug\jdtrans.obj
-d:\iti\datastructure\version2\projectteammerge - 3\debug\jerror.obj
-d:\iti\datastructure\version2\projectteammerge - 3\debug\jidctflt.obj
-d:\iti\datastructure\version2\projectteammerge - 3\debug\jidctfst.obj
-d:\iti\datastructure\version2\projectteammerge - 3\debug\jidctint.obj
-d:\iti\datastructure\version2\projectteammerge - 3\debug\jidctred.obj
-d:\iti\datastructure\version2\projectteammerge - 3\debug\jmemmgr.obj
-d:\iti\datastructure\version2\projectteammerge - 3\debug\jmemnobs.obj
-d:\iti\datastructure\version2\projectteammerge - 3\debug\jquant1.obj
-d:\iti\datastructure\version2\projectteammerge - 3\debug\jquant2.obj
-d:\iti\datastructure\version2\projectteammerge - 3\debug\jutils.obj
-d:\iti\datastructure\version2\projectteammerge - 3\debug\jddctmgr.sbr
-d:\iti\datastructure\version2\projectteammerge - 3\debug\jdcolor.sbr
-d:\iti\datastructure\version2\projectteammerge - 3\debug\jdcoefct.sbr
-d:\iti\datastructure\version2\projectteammerge - 3\debug\jdatasrc.sbr
-d:\iti\datastructure\version2\projectteammerge - 3\debug\jdapistd.sbr
-d:\iti\datastructure\version2\projectteammerge - 3\debug\jdapimin.sbr
-d:\iti\datastructure\version2\projectteammerge - 3\debug\jcparam.sbr
-d:\iti\datastructure\version2\projectteammerge - 3\debug\jcomapi.sbr
-d:\iti\datastructure\version2\projectteammerge - 3\debug\jpegload.sbr
-d:\iti\datastructure\version2\projectteammerge - 3\debug\jpegload.obj
-d:\iti\datastructure\version2\projectteammerge - 3\debug\jcomapi.obj
-d:\iti\datastructure\version2\projectteammerge - 3\debug\jcparam.obj
-d:\iti\datastructure\version2\projectteammerge - 3\debug\jdapimin.obj
-d:\iti\datastructure\version2\projectteammerge - 3\debug\jdapistd.obj
-d:\iti\datastructure\version2\projectteammerge - 3\debug\jdatasrc.obj
-d:\iti\datastructure\version2\projectteammerge - 3\debug\jdcoefct.obj
-d:\iti\datastructure\version2\projectteammerge - 3\debug\jdcolor.obj
-d:\iti\datastructure\version2\projectteammerge - 3\debug\jddctmgr.obj
-d:\iti\datastructure\version2\projectteammerge - 3\debug\actionsendtofront.sbr
-d:\iti\datastructure\version2\projectteammerge - 3\debug\actionsendtoback.sbr
-d:\iti\datastructure\version2\projectteammerge - 3\debug\actionsendtoback.obj
-d:\iti\datastructure\version2\projectteammerge - 3\debug\actionsendtofront.obj
-d:\iti\datastructure\version2\projectteammerge - 3\debug\actionsave.sbr
-d:\iti\datastructure\version2\projectteammerge - 3\debug\actionload.sbr
-d:\iti\datastructure\version2\projectteammerge - 3\debug\actionsave.obj
-d:\iti\datastructure\version2\projectteammerge - 3\debug\actionload.obj
-d:\iti\datastructure\version2\projectteammerge - 3\debug\colors.sbr
-d:\iti\datastructure\version2\projectteammerge - 3\debug\colors.obj
-d:\iti\datastructure\version2\projectteammerge - 3\debug\actionresize.sbr
-d:\iti\datastructure\version2\projectteammerge - 3\debug\actionresize.obj
-d:\iti\datastructure\version2\projectteammerge - 3\debug\actionswitchtoplay.sbr
-d:\iti\datastructure\version2\projectteammerge - 3\debug\actionswitchtodraw.sbr
-d:\iti\datastructure\version2\projectteammerge - 3\debug\actionswitchtodraw.obj
-d:\iti\datastructure\version2\projectteammerge - 3\debug\actionswitchtoplay.obj
-d:\iti\datastructure\version2\projectteammerge - 3\debug\pt project.exe
-d:\iti\datastructure\version2\projectteammerge - 3\debug\pt project.ilk
-d:\iti\datastructure\version2\projectteammerge - 3\debug\pt project.pdb
-d:\iti\datastructure\version2\projectteammerge - 3\debug\color.obj
-d:\iti\datastructure\version2\projectteammerge - 3\debug\color.sbr
-d:\iti\datastructure\version2\projectteammerge - 3\debug\pt project.tlog\bscmake.command.1.tlog
-d:\iti\datastructure\version2\projectteammerge - 3\debug\pt project.tlog\bscmake.read.1.tlog
-d:\iti\datastructure\version2\projectteammerge - 3\debug\pt project.tlog\bscmake.write.1.tlog
-d:\iti\datastructure\version2\projectteammerge - 3\debug\pt project.tlog\cl.command.1.tlog
-d:\iti\datastructure\version2\projectteammerge - 3\debug\pt project.tlog\cl.items.tlog
-d:\iti\datastructure\version2\projectteammerge - 3\debug\pt project.tlog\cl.read.1.tlog
-d:\iti\datastructure\version2\projectteammerge - 3\debug\pt project.tlog\cl.write.1.tlog
-d:\iti\datastructure\version2\projectteammerge - 3\debug\pt project.tlog\link.command.1.tlog
-d:\iti\datastructure\version2\projectteammerge - 3\debug\pt project.tlog\link.read.1.tlog
-d:\iti\datastructure\version2\projectteammerge - 3\debug\pt project.tlog\link.write.1.tlog
+d:\iti\datastructure\version2\projectteammerge - 3 - copy - copy\debug\pt project.bsc
+d:\iti\datastructure\version2\projectteammerge - 3 - copy - copy\debug\vc143.pdb
+d:\iti\datastructure\version2\projectteammerge - 3 - copy - copy\debug\vc143.idb
+d:\iti\datastructure\version2\projectteammerge - 3 - copy - copy\debug\main.sbr
+d:\iti\datastructure\version2\projectteammerge - 3 - copy - copy\debug\actionaddhexagon.sbr
+d:\iti\datastructure\version2\projectteammerge - 3 - copy - copy\debug\applicationmanager.sbr
+d:\iti\datastructure\version2\projectteammerge - 3 - copy - copy\debug\gui.sbr
+d:\iti\datastructure\version2\projectteammerge - 3 - copy - copy\debug\actionaddsquare.sbr
+d:\iti\datastructure\version2\projectteammerge - 3 - copy - copy\debug\csquare.sbr
+d:\iti\datastructure\version2\projectteammerge - 3 - copy - copy\debug\cfigure.sbr
+d:\iti\datastructure\version2\projectteammerge - 3 - copy - copy\debug\colors.sbr
+d:\iti\datastructure\version2\projectteammerge - 3 - copy - copy\debug\windowinput.sbr
+d:\iti\datastructure\version2\projectteammerge - 3 - copy - copy\debug\mousequeue.sbr
+d:\iti\datastructure\version2\projectteammerge - 3 - copy - copy\debug\keyqueue.sbr
+d:\iti\datastructure\version2\projectteammerge - 3 - copy - copy\debug\image.sbr
+d:\iti\datastructure\version2\projectteammerge - 3 - copy - copy\debug\cmugraphics.sbr
+d:\iti\datastructure\version2\projectteammerge - 3 - copy - copy\debug\auxil.sbr
+d:\iti\datastructure\version2\projectteammerge - 3 - copy - copy\debug\actionchngfigureclr.sbr
+d:\iti\datastructure\version2\projectteammerge - 3 - copy - copy\debug\chexagon.sbr
+d:\iti\datastructure\version2\projectteammerge - 3 - copy - copy\debug\cellipse.sbr
+d:\iti\datastructure\version2\projectteammerge - 3 - copy - copy\debug\actionplaybyfilltype.sbr
+d:\iti\datastructure\version2\projectteammerge - 3 - copy - copy\debug\actionswitchtoplay.sbr
+d:\iti\datastructure\version2\projectteammerge - 3 - copy - copy\debug\actionswitchtodraw.sbr
+d:\iti\datastructure\version2\projectteammerge - 3 - copy - copy\debug\actionswitchtodraw.obj
+d:\iti\datastructure\version2\projectteammerge - 3 - copy - copy\debug\actionswitchtoplay.obj
+d:\iti\datastructure\version2\projectteammerge - 3 - copy - copy\debug\actionplaybyfilltype.obj
+d:\iti\datastructure\version2\projectteammerge - 3 - copy - copy\debug\cellipse.obj
+d:\iti\datastructure\version2\projectteammerge - 3 - copy - copy\debug\chexagon.obj
+d:\iti\datastructure\version2\projectteammerge - 3 - copy - copy\debug\actionchngfigureclr.obj
+d:\iti\datastructure\version2\projectteammerge - 3 - copy - copy\debug\auxil.obj
+d:\iti\datastructure\version2\projectteammerge - 3 - copy - copy\debug\cmugraphics.obj
+d:\iti\datastructure\version2\projectteammerge - 3 - copy - copy\debug\image.obj
+d:\iti\datastructure\version2\projectteammerge - 3 - copy - copy\debug\keyqueue.obj
+d:\iti\datastructure\version2\projectteammerge - 3 - copy - copy\debug\mousequeue.obj
+d:\iti\datastructure\version2\projectteammerge - 3 - copy - copy\debug\windowinput.obj
+d:\iti\datastructure\version2\projectteammerge - 3 - copy - copy\debug\colors.obj
+d:\iti\datastructure\version2\projectteammerge - 3 - copy - copy\debug\cfigure.obj
+d:\iti\datastructure\version2\projectteammerge - 3 - copy - copy\debug\csquare.obj
+d:\iti\datastructure\version2\projectteammerge - 3 - copy - copy\debug\actionaddsquare.obj
+d:\iti\datastructure\version2\projectteammerge - 3 - copy - copy\debug\gui.obj
+d:\iti\datastructure\version2\projectteammerge - 3 - copy - copy\debug\applicationmanager.obj
+d:\iti\datastructure\version2\projectteammerge - 3 - copy - copy\debug\actionaddhexagon.obj
+d:\iti\datastructure\version2\projectteammerge - 3 - copy - copy\debug\main.obj
+d:\iti\datastructure\version2\projectteammerge - 3 - copy - copy\debug\actionsendtofront.sbr
+d:\iti\datastructure\version2\projectteammerge - 3 - copy - copy\debug\actionsendtoback.sbr
+d:\iti\datastructure\version2\projectteammerge - 3 - copy - copy\debug\actionselect.sbr
+d:\iti\datastructure\version2\projectteammerge - 3 - copy - copy\debug\actionsave.sbr
+d:\iti\datastructure\version2\projectteammerge - 3 - copy - copy\debug\actionresize.sbr
+d:\iti\datastructure\version2\projectteammerge - 3 - copy - copy\debug\actionplaybytype.sbr
+d:\iti\datastructure\version2\projectteammerge - 3 - copy - copy\debug\actionplaybyfill.sbr
+d:\iti\datastructure\version2\projectteammerge - 3 - copy - copy\debug\actionload.sbr
+d:\iti\datastructure\version2\projectteammerge - 3 - copy - copy\debug\actiondelete.sbr
+d:\iti\datastructure\version2\projectteammerge - 3 - copy - copy\debug\actionchngfillclr.sbr
+d:\iti\datastructure\version2\projectteammerge - 3 - copy - copy\debug\actionchngdrawclr.sbr
+d:\iti\datastructure\version2\projectteammerge - 3 - copy - copy\debug\actionchngbgclr.sbr
+d:\iti\datastructure\version2\projectteammerge - 3 - copy - copy\debug\actionaddellipse.sbr
+d:\iti\datastructure\version2\projectteammerge - 3 - copy - copy\debug\actionaddellipse.obj
+d:\iti\datastructure\version2\projectteammerge - 3 - copy - copy\debug\actionchngbgclr.obj
+d:\iti\datastructure\version2\projectteammerge - 3 - copy - copy\debug\actionchngdrawclr.obj
+d:\iti\datastructure\version2\projectteammerge - 3 - copy - copy\debug\actionchngfillclr.obj
+d:\iti\datastructure\version2\projectteammerge - 3 - copy - copy\debug\actiondelete.obj
+d:\iti\datastructure\version2\projectteammerge - 3 - copy - copy\debug\actionload.obj
+d:\iti\datastructure\version2\projectteammerge - 3 - copy - copy\debug\actionplaybyfill.obj
+d:\iti\datastructure\version2\projectteammerge - 3 - copy - copy\debug\actionplaybytype.obj
+d:\iti\datastructure\version2\projectteammerge - 3 - copy - copy\debug\actionresize.obj
+d:\iti\datastructure\version2\projectteammerge - 3 - copy - copy\debug\actionsave.obj
+d:\iti\datastructure\version2\projectteammerge - 3 - copy - copy\debug\actionselect.obj
+d:\iti\datastructure\version2\projectteammerge - 3 - copy - copy\debug\actionsendtoback.obj
+d:\iti\datastructure\version2\projectteammerge - 3 - copy - copy\debug\actionsendtofront.obj
+d:\iti\datastructure\version2\projectteammerge - 3 - copy - copy\debug\jutils.sbr
+d:\iti\datastructure\version2\projectteammerge - 3 - copy - copy\debug\jquant2.sbr
+d:\iti\datastructure\version2\projectteammerge - 3 - copy - copy\debug\jquant1.sbr
+d:\iti\datastructure\version2\projectteammerge - 3 - copy - copy\debug\jmemnobs.sbr
+d:\iti\datastructure\version2\projectteammerge - 3 - copy - copy\debug\jmemmgr.sbr
+d:\iti\datastructure\version2\projectteammerge - 3 - copy - copy\debug\jidctred.sbr
+d:\iti\datastructure\version2\projectteammerge - 3 - copy - copy\debug\jidctint.sbr
+d:\iti\datastructure\version2\projectteammerge - 3 - copy - copy\debug\jidctfst.sbr
+d:\iti\datastructure\version2\projectteammerge - 3 - copy - copy\debug\jidctflt.sbr
+d:\iti\datastructure\version2\projectteammerge - 3 - copy - copy\debug\jerror.sbr
+d:\iti\datastructure\version2\projectteammerge - 3 - copy - copy\debug\jdtrans.sbr
+d:\iti\datastructure\version2\projectteammerge - 3 - copy - copy\debug\jdsample.sbr
+d:\iti\datastructure\version2\projectteammerge - 3 - copy - copy\debug\jdpostct.sbr
+d:\iti\datastructure\version2\projectteammerge - 3 - copy - copy\debug\jdphuff.sbr
+d:\iti\datastructure\version2\projectteammerge - 3 - copy - copy\debug\jdmerge.sbr
+d:\iti\datastructure\version2\projectteammerge - 3 - copy - copy\debug\jdmaster.sbr
+d:\iti\datastructure\version2\projectteammerge - 3 - copy - copy\debug\jdmarker.sbr
+d:\iti\datastructure\version2\projectteammerge - 3 - copy - copy\debug\jdmainct.sbr
+d:\iti\datastructure\version2\projectteammerge - 3 - copy - copy\debug\jdinput.sbr
+d:\iti\datastructure\version2\projectteammerge - 3 - copy - copy\debug\jdhuff.sbr
+d:\iti\datastructure\version2\projectteammerge - 3 - copy - copy\debug\jdhuff.obj
+d:\iti\datastructure\version2\projectteammerge - 3 - copy - copy\debug\jdinput.obj
+d:\iti\datastructure\version2\projectteammerge - 3 - copy - copy\debug\jdmainct.obj
+d:\iti\datastructure\version2\projectteammerge - 3 - copy - copy\debug\jdmarker.obj
+d:\iti\datastructure\version2\projectteammerge - 3 - copy - copy\debug\jdmaster.obj
+d:\iti\datastructure\version2\projectteammerge - 3 - copy - copy\debug\jdmerge.obj
+d:\iti\datastructure\version2\projectteammerge - 3 - copy - copy\debug\jdphuff.obj
+d:\iti\datastructure\version2\projectteammerge - 3 - copy - copy\debug\jdpostct.obj
+d:\iti\datastructure\version2\projectteammerge - 3 - copy - copy\debug\jdsample.obj
+d:\iti\datastructure\version2\projectteammerge - 3 - copy - copy\debug\jdtrans.obj
+d:\iti\datastructure\version2\projectteammerge - 3 - copy - copy\debug\jerror.obj
+d:\iti\datastructure\version2\projectteammerge - 3 - copy - copy\debug\jidctflt.obj
+d:\iti\datastructure\version2\projectteammerge - 3 - copy - copy\debug\jidctfst.obj
+d:\iti\datastructure\version2\projectteammerge - 3 - copy - copy\debug\jidctint.obj
+d:\iti\datastructure\version2\projectteammerge - 3 - copy - copy\debug\jidctred.obj
+d:\iti\datastructure\version2\projectteammerge - 3 - copy - copy\debug\jmemmgr.obj
+d:\iti\datastructure\version2\projectteammerge - 3 - copy - copy\debug\jmemnobs.obj
+d:\iti\datastructure\version2\projectteammerge - 3 - copy - copy\debug\jquant1.obj
+d:\iti\datastructure\version2\projectteammerge - 3 - copy - copy\debug\jquant2.obj
+d:\iti\datastructure\version2\projectteammerge - 3 - copy - copy\debug\jutils.obj
+d:\iti\datastructure\version2\projectteammerge - 3 - copy - copy\debug\jddctmgr.sbr
+d:\iti\datastructure\version2\projectteammerge - 3 - copy - copy\debug\jdcolor.sbr
+d:\iti\datastructure\version2\projectteammerge - 3 - copy - copy\debug\jdcoefct.sbr
+d:\iti\datastructure\version2\projectteammerge - 3 - copy - copy\debug\jdatasrc.sbr
+d:\iti\datastructure\version2\projectteammerge - 3 - copy - copy\debug\jdapistd.sbr
+d:\iti\datastructure\version2\projectteammerge - 3 - copy - copy\debug\jdapimin.sbr
+d:\iti\datastructure\version2\projectteammerge - 3 - copy - copy\debug\jcparam.sbr
+d:\iti\datastructure\version2\projectteammerge - 3 - copy - copy\debug\jcomapi.sbr
+d:\iti\datastructure\version2\projectteammerge - 3 - copy - copy\debug\jpegload.sbr
+d:\iti\datastructure\version2\projectteammerge - 3 - copy - copy\debug\jpegload.obj
+d:\iti\datastructure\version2\projectteammerge - 3 - copy - copy\debug\jcomapi.obj
+d:\iti\datastructure\version2\projectteammerge - 3 - copy - copy\debug\jcparam.obj
+d:\iti\datastructure\version2\projectteammerge - 3 - copy - copy\debug\jdapimin.obj
+d:\iti\datastructure\version2\projectteammerge - 3 - copy - copy\debug\jdapistd.obj
+d:\iti\datastructure\version2\projectteammerge - 3 - copy - copy\debug\jdatasrc.obj
+d:\iti\datastructure\version2\projectteammerge - 3 - copy - copy\debug\jdcoefct.obj
+d:\iti\datastructure\version2\projectteammerge - 3 - copy - copy\debug\jdcolor.obj
+d:\iti\datastructure\version2\projectteammerge - 3 - copy - copy\debug\jddctmgr.obj
+d:\iti\datastructure\version2\projectteammerge - 3 - copy - copy\debug\actioncolorize.sbr
+d:\iti\datastructure\version2\projectteammerge - 3 - copy - copy\debug\actioncolorize.obj
+d:\iti\datastructure\version2\projectteammerge - 3 - copy - copy\debug\pt project.ilk
+d:\iti\datastructure\version2\projectteammerge - 3 - copy - copy\debug\pt project.pdb
+d:\iti\datastructure\version2\projectteammerge - 3 - copy - copy\debug\pt project.exe
+d:\iti\datastructure\version2\projectteammerge - 3 - copy - copy\debug\pt project.tlog\bscmake.command.1.tlog
+d:\iti\datastructure\version2\projectteammerge - 3 - copy - copy\debug\pt project.tlog\bscmake.read.1.tlog
+d:\iti\datastructure\version2\projectteammerge - 3 - copy - copy\debug\pt project.tlog\bscmake.write.1.tlog
+d:\iti\datastructure\version2\projectteammerge - 3 - copy - copy\debug\pt project.tlog\cl.command.1.tlog
+d:\iti\datastructure\version2\projectteammerge - 3 - copy - copy\debug\pt project.tlog\cl.items.tlog
+d:\iti\datastructure\version2\projectteammerge - 3 - copy - copy\debug\pt project.tlog\cl.read.1.tlog
+d:\iti\datastructure\version2\projectteammerge - 3 - copy - copy\debug\pt project.tlog\cl.write.1.tlog
+d:\iti\datastructure\version2\projectteammerge - 3 - copy - copy\debug\pt project.tlog\link.command.1.tlog
+d:\iti\datastructure\version2\projectteammerge - 3 - copy - copy\debug\pt project.tlog\link.read.1.tlog
+d:\iti\datastructure\version2\projectteammerge - 3 - copy - copy\debug\pt project.tlog\link.write.1.tlog

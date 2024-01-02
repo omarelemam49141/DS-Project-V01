@@ -13,12 +13,10 @@ ActionChngFillClr::ActionChngFillClr(ApplicationManager* pApp) :Action(pApp)
 //Omar
 void ActionChngFillClr::Execute()
 {
-	color FillColors[] = {BLUE, GREEN, YELLOW, RED, BLACK};
 	/*color BGColors[] = {GREY, WHITE, LIGHTYELLOW}; */
 	//Get a Pointer to the Interface
 	GUI* pGUI = pManager->GetGUI();
-
-	pGUI->setCrntFillColor(FillColors[rand() % 5]);
-
-	pGUI->PrintMessage("Fill Color changed");
+	pGUI->ClearToolBar();
+	pGUI->PrintMessage("Choose a fill color");
+	pGUI->CreateColorToolBar('f');
 }

@@ -1,62 +1,63 @@
-D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - Copy - Copy\ActionAddEllipse.cpp;D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - Copy - Copy\Debug\ActionAddEllipse.obj
-D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - Copy - Copy\ActionChngBGClr.cpp;D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - Copy - Copy\Debug\ActionChngBGClr.obj
-D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - Copy - Copy\ActionChngDrawClr.cpp;D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - Copy - Copy\Debug\ActionChngDrawClr.obj
-D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - Copy - Copy\ActionChngFillClr.cpp;D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - Copy - Copy\Debug\ActionChngFillClr.obj
-D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - Copy - Copy\ActionDelete.cpp;D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - Copy - Copy\Debug\ActionDelete.obj
-D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - Copy - Copy\ActionLoad.cpp;D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - Copy - Copy\Debug\ActionLoad.obj
-D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - Copy - Copy\ActionPlayByFill.cpp;D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - Copy - Copy\Debug\ActionPlayByFill.obj
-D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - Copy - Copy\ActionPlayByType.cpp;D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - Copy - Copy\Debug\ActionPlayByType.obj
-D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - Copy - Copy\ActionResize.cpp;D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - Copy - Copy\Debug\ActionResize.obj
-D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - Copy - Copy\ActionSave.cpp;D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - Copy - Copy\Debug\ActionSave.obj
-D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - Copy - Copy\ActionSelect.cpp;D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - Copy - Copy\Debug\ActionSelect.obj
-D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - Copy - Copy\ActionSendToBack.cpp;D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - Copy - Copy\Debug\ActionSendToBack.obj
-D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - Copy - Copy\ActionSendToFront.cpp;D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - Copy - Copy\Debug\ActionSendToFront.obj
-D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - Copy - Copy\ActionSwitchToDraw.cpp;D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - Copy - Copy\Debug\ActionSwitchToDraw.obj
-D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - Copy - Copy\ActionSwitchToPlay.cpp;D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - Copy - Copy\Debug\ActionSwitchToPlay.obj
-D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - Copy - Copy\Actions\ActionPlayByFillType.cpp;D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - Copy - Copy\Debug\ActionPlayByFillType.obj
-D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - Copy - Copy\CEllipse.cpp;D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - Copy - Copy\Debug\CEllipse.obj
-D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - Copy - Copy\CHexagon.cpp;D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - Copy - Copy\Debug\CHexagon.obj
-D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - Copy - Copy\ActionChngFigureClr.cpp;D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - Copy - Copy\Debug\ActionChngFigureClr.obj
-D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - Copy - Copy\CMUgraphicsLib\auxil.cpp;D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - Copy - Copy\Debug\auxil.obj
-D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - Copy - Copy\CMUgraphicsLib\CMUgraphics.cpp;D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - Copy - Copy\Debug\CMUgraphics.obj
-D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - Copy - Copy\CMUgraphicsLib\image.cpp;D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - Copy - Copy\Debug\image.obj
-D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - Copy - Copy\CMUgraphicsLib\jpegload.c;D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - Copy - Copy\Debug\jpegload.obj
-D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - Copy - Copy\CMUgraphicsLib\keyqueue.cpp;D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - Copy - Copy\Debug\keyqueue.obj
-D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - Copy - Copy\CMUgraphicsLib\mousequeue.cpp;D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - Copy - Copy\Debug\mousequeue.obj
-D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - Copy - Copy\CMUgraphicsLib\windowinput.cpp;D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - Copy - Copy\Debug\windowinput.obj
-D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - Copy - Copy\CMUgraphicsLib\jpeg\jcomapi.c;D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - Copy - Copy\Debug\jcomapi.obj
-D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - Copy - Copy\CMUgraphicsLib\jpeg\jcparam.c;D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - Copy - Copy\Debug\jcparam.obj
-D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - Copy - Copy\CMUgraphicsLib\jpeg\jdapimin.c;D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - Copy - Copy\Debug\jdapimin.obj
-D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - Copy - Copy\CMUgraphicsLib\jpeg\jdapistd.c;D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - Copy - Copy\Debug\jdapistd.obj
-D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - Copy - Copy\CMUgraphicsLib\jpeg\jdatasrc.c;D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - Copy - Copy\Debug\jdatasrc.obj
-D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - Copy - Copy\CMUgraphicsLib\jpeg\jdcoefct.c;D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - Copy - Copy\Debug\jdcoefct.obj
-D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - Copy - Copy\CMUgraphicsLib\jpeg\jdcolor.c;D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - Copy - Copy\Debug\jdcolor.obj
-D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - Copy - Copy\CMUgraphicsLib\jpeg\jddctmgr.c;D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - Copy - Copy\Debug\jddctmgr.obj
-D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - Copy - Copy\CMUgraphicsLib\jpeg\jdhuff.c;D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - Copy - Copy\Debug\jdhuff.obj
-D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - Copy - Copy\CMUgraphicsLib\jpeg\jdinput.c;D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - Copy - Copy\Debug\jdinput.obj
-D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - Copy - Copy\CMUgraphicsLib\jpeg\jdmainct.c;D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - Copy - Copy\Debug\jdmainct.obj
-D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - Copy - Copy\CMUgraphicsLib\jpeg\jdmarker.c;D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - Copy - Copy\Debug\jdmarker.obj
-D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - Copy - Copy\CMUgraphicsLib\jpeg\jdmaster.c;D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - Copy - Copy\Debug\jdmaster.obj
-D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - Copy - Copy\CMUgraphicsLib\jpeg\jdmerge.c;D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - Copy - Copy\Debug\jdmerge.obj
-D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - Copy - Copy\CMUgraphicsLib\jpeg\jdphuff.c;D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - Copy - Copy\Debug\jdphuff.obj
-D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - Copy - Copy\CMUgraphicsLib\jpeg\jdpostct.c;D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - Copy - Copy\Debug\jdpostct.obj
-D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - Copy - Copy\CMUgraphicsLib\jpeg\jdsample.c;D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - Copy - Copy\Debug\jdsample.obj
-D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - Copy - Copy\CMUgraphicsLib\jpeg\jdtrans.c;D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - Copy - Copy\Debug\jdtrans.obj
-D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - Copy - Copy\CMUgraphicsLib\jpeg\jerror.c;D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - Copy - Copy\Debug\jerror.obj
-D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - Copy - Copy\CMUgraphicsLib\jpeg\jidctflt.c;D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - Copy - Copy\Debug\jidctflt.obj
-D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - Copy - Copy\CMUgraphicsLib\jpeg\jidctfst.c;D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - Copy - Copy\Debug\jidctfst.obj
-D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - Copy - Copy\CMUgraphicsLib\jpeg\jidctint.c;D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - Copy - Copy\Debug\jidctint.obj
-D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - Copy - Copy\CMUgraphicsLib\jpeg\jidctred.c;D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - Copy - Copy\Debug\jidctred.obj
-D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - Copy - Copy\CMUgraphicsLib\jpeg\jmemmgr.c;D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - Copy - Copy\Debug\jmemmgr.obj
-D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - Copy - Copy\CMUgraphicsLib\jpeg\jmemnobs.c;D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - Copy - Copy\Debug\jmemnobs.obj
-D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - Copy - Copy\CMUgraphicsLib\jpeg\jquant1.c;D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - Copy - Copy\Debug\jquant1.obj
-D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - Copy - Copy\CMUgraphicsLib\jpeg\jquant2.c;D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - Copy - Copy\Debug\jquant2.obj
-D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - Copy - Copy\CMUgraphicsLib\jpeg\jutils.c;D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - Copy - Copy\Debug\jutils.obj
-D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - Copy - Copy\colors.cpp;D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - Copy - Copy\Debug\colors.obj
-D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - Copy - Copy\Figures\CFigure.cpp;D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - Copy - Copy\Debug\CFigure.obj
-D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - Copy - Copy\Figures\CSquare.cpp;D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - Copy - Copy\Debug\CSquare.obj
-D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - Copy - Copy\Actions\ActionAddSquare.cpp;D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - Copy - Copy\Debug\ActionAddSquare.obj
-D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - Copy - Copy\GUI\GUI.cpp;D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - Copy - Copy\Debug\GUI.obj
-D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - Copy - Copy\ApplicationManager.cpp;D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - Copy - Copy\Debug\ApplicationManager.obj
-D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - Copy - Copy\ActionAddHexagon.cpp;D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - Copy - Copy\Debug\ActionAddHexagon.obj
-D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - Copy - Copy\main.cpp;D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - Copy - Copy\Debug\main.obj
+D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - final\ActionAddEllipse.cpp;D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - final\Debug\ActionAddEllipse.obj
+D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - final\ActionChngBGClr.cpp;D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - final\Debug\ActionChngBGClr.obj
+D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - final\ActionChngDrawClr.cpp;D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - final\Debug\ActionChngDrawClr.obj
+D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - final\ActionChngFillClr.cpp;D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - final\Debug\ActionChngFillClr.obj
+D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - final\ActionColorize.cpp;D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - final\Debug\ActionColorize.obj
+D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - final\ActionDelete.cpp;D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - final\Debug\ActionDelete.obj
+D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - final\ActionLoad.cpp;D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - final\Debug\ActionLoad.obj
+D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - final\ActionPlayByFill.cpp;D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - final\Debug\ActionPlayByFill.obj
+D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - final\ActionPlayByType.cpp;D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - final\Debug\ActionPlayByType.obj
+D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - final\ActionResize.cpp;D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - final\Debug\ActionResize.obj
+D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - final\ActionSave.cpp;D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - final\Debug\ActionSave.obj
+D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - final\ActionSelect.cpp;D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - final\Debug\ActionSelect.obj
+D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - final\ActionSendToBack.cpp;D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - final\Debug\ActionSendToBack.obj
+D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - final\ActionSendToFront.cpp;D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - final\Debug\ActionSendToFront.obj
+D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - final\ActionSwitchToDraw.cpp;D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - final\Debug\ActionSwitchToDraw.obj
+D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - final\ActionSwitchToPlay.cpp;D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - final\Debug\ActionSwitchToPlay.obj
+D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - final\Actions\ActionPlayByFillType.cpp;D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - final\Debug\ActionPlayByFillType.obj
+D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - final\CEllipse.cpp;D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - final\Debug\CEllipse.obj
+D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - final\CHexagon.cpp;D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - final\Debug\CHexagon.obj
+D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - final\ActionChngFigureClr.cpp;D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - final\Debug\ActionChngFigureClr.obj
+D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - final\CMUgraphicsLib\auxil.cpp;D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - final\Debug\auxil.obj
+D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - final\CMUgraphicsLib\CMUgraphics.cpp;D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - final\Debug\CMUgraphics.obj
+D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - final\CMUgraphicsLib\image.cpp;D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - final\Debug\image.obj
+D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - final\CMUgraphicsLib\jpegload.c;D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - final\Debug\jpegload.obj
+D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - final\CMUgraphicsLib\keyqueue.cpp;D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - final\Debug\keyqueue.obj
+D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - final\CMUgraphicsLib\mousequeue.cpp;D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - final\Debug\mousequeue.obj
+D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - final\CMUgraphicsLib\windowinput.cpp;D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - final\Debug\windowinput.obj
+D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - final\CMUgraphicsLib\jpeg\jcomapi.c;D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - final\Debug\jcomapi.obj
+D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - final\CMUgraphicsLib\jpeg\jcparam.c;D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - final\Debug\jcparam.obj
+D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - final\CMUgraphicsLib\jpeg\jdapimin.c;D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - final\Debug\jdapimin.obj
+D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - final\CMUgraphicsLib\jpeg\jdapistd.c;D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - final\Debug\jdapistd.obj
+D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - final\CMUgraphicsLib\jpeg\jdatasrc.c;D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - final\Debug\jdatasrc.obj
+D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - final\CMUgraphicsLib\jpeg\jdcoefct.c;D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - final\Debug\jdcoefct.obj
+D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - final\CMUgraphicsLib\jpeg\jdcolor.c;D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - final\Debug\jdcolor.obj
+D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - final\CMUgraphicsLib\jpeg\jddctmgr.c;D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - final\Debug\jddctmgr.obj
+D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - final\CMUgraphicsLib\jpeg\jdhuff.c;D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - final\Debug\jdhuff.obj
+D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - final\CMUgraphicsLib\jpeg\jdinput.c;D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - final\Debug\jdinput.obj
+D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - final\CMUgraphicsLib\jpeg\jdmainct.c;D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - final\Debug\jdmainct.obj
+D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - final\CMUgraphicsLib\jpeg\jdmarker.c;D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - final\Debug\jdmarker.obj
+D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - final\CMUgraphicsLib\jpeg\jdmaster.c;D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - final\Debug\jdmaster.obj
+D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - final\CMUgraphicsLib\jpeg\jdmerge.c;D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - final\Debug\jdmerge.obj
+D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - final\CMUgraphicsLib\jpeg\jdphuff.c;D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - final\Debug\jdphuff.obj
+D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - final\CMUgraphicsLib\jpeg\jdpostct.c;D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - final\Debug\jdpostct.obj
+D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - final\CMUgraphicsLib\jpeg\jdsample.c;D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - final\Debug\jdsample.obj
+D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - final\CMUgraphicsLib\jpeg\jdtrans.c;D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - final\Debug\jdtrans.obj
+D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - final\CMUgraphicsLib\jpeg\jerror.c;D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - final\Debug\jerror.obj
+D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - final\CMUgraphicsLib\jpeg\jidctflt.c;D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - final\Debug\jidctflt.obj
+D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - final\CMUgraphicsLib\jpeg\jidctfst.c;D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - final\Debug\jidctfst.obj
+D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - final\CMUgraphicsLib\jpeg\jidctint.c;D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - final\Debug\jidctint.obj
+D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - final\CMUgraphicsLib\jpeg\jidctred.c;D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - final\Debug\jidctred.obj
+D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - final\CMUgraphicsLib\jpeg\jmemmgr.c;D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - final\Debug\jmemmgr.obj
+D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - final\CMUgraphicsLib\jpeg\jmemnobs.c;D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - final\Debug\jmemnobs.obj
+D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - final\CMUgraphicsLib\jpeg\jquant1.c;D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - final\Debug\jquant1.obj
+D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - final\CMUgraphicsLib\jpeg\jquant2.c;D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - final\Debug\jquant2.obj
+D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - final\CMUgraphicsLib\jpeg\jutils.c;D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - final\Debug\jutils.obj
+D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - final\colors.cpp;D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - final\Debug\colors.obj
+D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - final\Figures\CFigure.cpp;D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - final\Debug\CFigure.obj
+D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - final\Figures\CSquare.cpp;D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - final\Debug\CSquare.obj
+D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - final\Actions\ActionAddSquare.cpp;D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - final\Debug\ActionAddSquare.obj
+D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - final\GUI\GUI.cpp;D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - final\Debug\GUI.obj
+D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - final\ApplicationManager.cpp;D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - final\Debug\ApplicationManager.obj
+D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - final\ActionAddHexagon.cpp;D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - final\Debug\ActionAddHexagon.obj
+D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - final\main.cpp;D:\ITI\DataStructure\Version2\ProjectTeamMerge - 3 - final\Debug\main.obj

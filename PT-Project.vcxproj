@@ -133,6 +133,7 @@
     <ClCompile Include="ActionChngBGClr.cpp" />
     <ClCompile Include="ActionChngDrawClr.cpp" />
     <ClCompile Include="ActionChngFillClr.cpp" />
+    <ClCompile Include="ActionColorize.cpp" />
     <ClCompile Include="ActionDelete.cpp" />
     <ClCompile Include="ActionLoad.cpp" />
     <ClCompile Include="ActionPlayByFill.cpp" />
@@ -197,6 +198,7 @@
     <ClInclude Include="ActionChngBGClr.h" />
     <ClInclude Include="ActionChngDrawClr.h" />
     <ClInclude Include="ActionChngFillClr.h" />
+    <ClInclude Include="ActionColorize.h" />
     <ClInclude Include="ActionDelete.h" />
     <ClInclude Include="ActionLoad.h" />
     <ClInclude Include="ActionPlayByFill.h" />

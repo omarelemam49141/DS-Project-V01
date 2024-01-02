@@ -22,6 +22,7 @@
 #include "ActionPlayByFill.h"
 #include "ActionPlayByType.h"
 #include "Actions/ActionPlayByFillType.h"
+#include "ActionColorize.h"
 
 //Constructor
 ApplicationManager::ApplicationManager()
@@ -138,7 +139,22 @@ Action* ApplicationManager::CreateAction(ActionType ActType)
 		case ACTION_PLAY_TYPEFILL:
 			newAct = new ActionPlayByFillType(this);
 			break;
-		
+		case ACTION_ORANGE:
+			newAct = new ActionColorize(this, ORANGE);
+			break;
+		case ACTION_RED:
+			newAct = new ActionColorize(this, RED);
+			break;
+		case ACTION_PINK:
+			newAct = new ActionColorize(this, PINK);
+			break;
+		case ACTION_BLUE:
+			newAct = new ActionColorize(this, BLUE);
+			break;
+		case ACTION_GREEN:
+			newAct = new ActionColorize(this, GREEN);
+			break;
+
 		case EXIT:
 			///create ExitAction here
 			break;

@@ -33,6 +33,10 @@ public:
 	void ClearDrawArea() const;	//Clears the drawing area
 	void ClearToolBar() const;
 
+	void CreateColorToolBar(char colorMode) const;
+
+	void ChangeColors(color clr);
+
 	// -- Figures Drawing functions
 	void DrawSquare(Point P1, int length, GfxInfo RectGfxInfo, bool selected=false) const;  //Draw a Square
 

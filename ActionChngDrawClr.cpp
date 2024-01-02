@@ -15,14 +15,11 @@ ActionChngDrawClr::ActionChngDrawClr(ApplicationManager* pApp) :Action(pApp)
 //Omar
 void ActionChngDrawClr::Execute()
 {
-	color DrawColors[] = {BLUE, GREEN, YELLOW, RED, BLACK};
 	/*color FillColors[] = {BLUE, GREEN, YELLOW, RED, BLACK};
 	color BGColors[] = { GREY, WHITE, LIGHTYELLOW };*/
 	//Get a Pointer to the Interface
 	GUI* pGUI = pManager->GetGUI();
-
-	//
-	pGUI->setCrntDrawColor(DrawColors[rand() % 5]);
-
-	pGUI->PrintMessage("Draw Color changed");
+	pGUI->ClearToolBar();
+	pGUI->PrintMessage("Choose a border color");
+	pGUI->CreateColorToolBar('d');
 }
