@@ -27,6 +27,11 @@ enum ActionType //The actions supported (you can add more if needed)
 	HALFED_RESIZE, // Resize a figure to 1/2 of it's current size		
 	DOUBLED_RESIZE,// Resize a figure to Double of it's current size
 	QUADRUPLE_RESIZED,
+	ACTION_ORANGE,
+	ACTION_RED,
+	ACTION_BLUE,
+	ACTION_GREEN,
+	ACTION_PINK,
 
 	DRAWING_AREA,	//A click on the drawing area
 	STATUS,			//A click on the status bar
