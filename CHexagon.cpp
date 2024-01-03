@@ -59,9 +59,12 @@ string CHexagon::GetInfo()
         + " - vertexes count is: " + to_string(vertexes);
 }
 
-//asma save
+//asma save This function writes the details of the ellipse figure to the output file stream (OutFile).
 void CHexagon::Save(ofstream& OutFile) {
+    //the type of the figure
     OutFile << "CHexagon\t";
+
+    //the vertexes and points 
     OutFile << this->vertexes << "\t";
     for (int i = 0; i < vertexes; i++) {
         OutFile << this->yCoordinates[i] << "\t";
@@ -70,18 +73,24 @@ void CHexagon::Save(ofstream& OutFile) {
         OutFile << this->xCoordinates[i] << "\t";
     }
 
+    
+    // the drawing color
     OutFile << ColorString(this->FigGfxInfo.DrawClr) << "\t";
 
-
-
+    
+    //the fill color
     if (this->FigGfxInfo.isFilled)
         OutFile << this->ColorString(this->FigGfxInfo.FillClr) << "\n";
     else
         OutFile << "NO_FILL\n";
 }
 
+//asmaa
+//This function reads the details of the ellipse figure from the input file stream 
 void CHexagon::Load(ifstream& Infile) {
     string hexagonData;
+
+    // It reads the vertexes and points
     Infile >> vertexes;
     yCoordinates = new int[vertexes];
     xCoordinates = new int[vertexes];
@@ -92,13 +101,16 @@ void CHexagon::Load(ifstream& Infile) {
         Infile >> xCoordinates[i];
     }
 
+    // the drawing color
     Infile >> hexagonData;
     FigGfxInfo.DrawClr = ColorObject(hexagonData);
 
+    //and the fill color
     Infile >> hexagonData;
     FigGfxInfo.FillClr = ColorObject(hexagonData);
     FigGfxInfo.isFilled = true;
 
+    //show figure
     this->show();
     this->FigGfxInfo.BorderWdth = 3; //pass 3 as default value for borderWidth
     this->SetSelected(false);

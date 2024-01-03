@@ -27,7 +27,8 @@ void CFigure::ChngFillClr(color Fclr)
 }
 
 //asmaa
-string CFigure::ColorString(color ClrObj) const  //Convert from Color Type to String Type
+//This function takes a color object as an argument and returns its  string representation.(Convert from Color Type to String Type)
+string CFigure::ColorString(color ClrObj) const  
 {
 	if (ClrObj == WHITE) return "WHITE";
 	else if (ClrObj == BLACK) return "BLACK";
@@ -41,8 +42,9 @@ string CFigure::ColorString(color ClrObj) const  //Convert from Color Type to St
 	else if (ClrObj == BLUE) return "BLUE";
 	else return "GREEN";
 }
-
-color CFigure::ColorObject(string ClrStr) const  //Convert from string to color object
+//asma
+//This function takes a color object as an argument and returns its  string representation.(Convert from string to color object)
+color CFigure::ColorObject(string ClrStr) const  
 {
 	if (ClrStr == "WHITE") return WHITE;
 	else if (ClrStr == "BLACK") return BLACK;
@@ -56,9 +58,13 @@ color CFigure::ColorObject(string ClrStr) const  //Convert from string to color 
 	else if (ClrStr == "BLUE") return BLUE;
 	else return BLUE;
 }
+//asma
+//this function returns the value of the IsHidden member variable of the FigGfxInfo
 bool CFigure::IsHidden() {
 	return FigGfxInfo.IsHidden;
 };
+//asma
+//to shoe the figure 
 void CFigure::show() {
 	FigGfxInfo.IsHidden = false;
 };

@@ -61,6 +61,8 @@ public:
 	void SaveAll(ofstream& Out);
 	color ColorObject(string) const;
 
+
+
 	CFigure* GetSelectedFigure() const;
 
 	int GetSelectedCount();

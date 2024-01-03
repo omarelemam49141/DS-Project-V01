@@ -36,35 +36,45 @@ string CEllipse::GetInfo()
         " - Second point: (" + to_string(pointtwo.x) + ", " + to_string(pointtwo.y) + ")";
 }
 
-//asma save
+//asma save This function writes the details of the ellipse figure to the output file stream (OutFile).
+  
 void CEllipse::Save(ofstream& OutFile) {
 
-	OutFile << "CEllipse\t"
+	OutFile << "CEllipse\t" //the type of the figure(CEllipse)
+        //the coordinates of the two points that define the ellipse
 		<< this->pointone.x << "\t"
 		<< this->pointone.y << "\t"
 		<< this->pointtwo.x << "\t"
 		<< this->pointtwo.y << "\t"
+        // the drawing color
 		<< this->ColorString(this->FigGfxInfo.DrawClr) << "\t";
 	// check figure is filled or not
 	if (this->FigGfxInfo.isFilled)
+        //the fill color
 		OutFile << this->ColorString(this->FigGfxInfo.FillClr) << "\n";
 	else
 		OutFile << "NO_FILL\n";
 }
+//asmaa
+//This function reads the details of the ellipse figure from the input file stream 
 void CEllipse::Load(ifstream& Infile) {
+   // It reads the coordinates of the two points(pointone and pointtwo)
 	string ellipseData;
 	Infile >> pointone.x
 		>> pointone.y
 		>> pointtwo.x
 		>> pointtwo.y;
 
+    // the drawing color
 	Infile >> ellipseData;
 	FigGfxInfo.DrawClr = this->ColorObject(ellipseData);
 
+    //and the fill color
 	Infile >> ellipseData;
 	FigGfxInfo.FillClr = this->ColorObject(ellipseData);
 	FigGfxInfo.isFilled = true;
 
+    //show figure
 	this->show();
 	this->FigGfxInfo.BorderWdth = 3;
 	this->SetSelected(false);

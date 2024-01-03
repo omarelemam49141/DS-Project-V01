@@ -15,12 +15,10 @@ class ActionSave : public Action
 private:
 	string FileName;
 	int FigCnt;
-	bool fireExit;
 public:
-	ActionSave(ApplicationManager* pApp, int FigCount, bool exit);
+	ActionSave(ApplicationManager* pApp, int FigCount);
 	virtual void ReadActionParameters();
 	virtual void Execute();
-	color ColorObject(string ClrStr) const;
 };
 
 

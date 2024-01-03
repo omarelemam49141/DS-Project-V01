@@ -115,7 +115,7 @@ Action* ApplicationManager::CreateAction(ActionType ActType)
 			newAct = new ActionResize(this, selectedfigure, 4);
 			break;
 		case SAVE:
-			newAct = new ActionSave(this, FigCount, 0);
+			newAct = new ActionSave(this, FigCount);
 			break;
 		case LOAD:
 			newAct = new ActionLoad(this);
@@ -203,18 +203,21 @@ CFigure *ApplicationManager::GetFigure(int x, int y) const
 	return NULL;
 }
 
-
+// setting each element in the array to NULL and then updating the FigCount to zero, effectively clearing the list of figures.
 void ApplicationManager::deleteALLFig()
 {
+	//// Iterate through each element in FigList
 	for (int i = 0; i < FigCount; i++)
 	{
+		// Set the element to NULL (delete the figure)
 		FigList[i] = NULL;
 
 	}
-
+	// Update FigCount to zero
 	FigCount = 0;
 
 }
+
 //==================================================================================//
 //							Save	load						                        //
 //==================================================================================//
@@ -238,6 +241,7 @@ string ApplicationManager::colorString(color ClrObj) const
 	else if (ClrObj == LIGHTGOLDENRODYELLOW) return "LIGHTGOLDENRODYELLOW";
 	else return "GREEN";
 }
+//Convert from string to object color to load
 color ApplicationManager::ColorObject(string ClrStr) const
 {
 	if (ClrStr == "WHITE") return WHITE;
@@ -255,8 +259,9 @@ color ApplicationManager::ColorObject(string ClrStr) const
 
 void ApplicationManager::SaveAll(ofstream& Out)
 {
+	// Iterate through each figure in FigList
 	for (int i = 0; i < FigCount; i++) {
-
+		// Call the Save function for each figure, passing the output file stream
 		FigList[i]->Save(Out);
 
 	}

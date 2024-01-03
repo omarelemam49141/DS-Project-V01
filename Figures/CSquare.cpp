@@ -35,36 +35,49 @@ string CSquare::GetInfo()
 	return "First point: (" + to_string(TopLeftCorner.x) + ", " + to_string(TopLeftCorner.y) + ")" + " - side length is: " + to_string(length);
 }
 
-//asmaa save
+//asma save This function writes the details of the ellipse figure to the output file stream (OutFile).
 void CSquare::Save(ofstream& OutFile) {
 
 	cout << "i get called";
+	//the type of the figure
 	OutFile << "CSquare\t"
+		//the coordinates of the two points 
 		<< this->TopLeftCorner.x << "\t"
 		<< this->TopLeftCorner.y << "\t"
 		<< this->length << "\t"
-		<< this->ColorString(this->FigGfxInfo.DrawClr) << "\t";
 
+		// the drawing color
+		<< this->ColorString(this->FigGfxInfo.DrawClr) << "\t";
+	//the fill color
 	if (this->FigGfxInfo.isFilled)
 		OutFile << this->ColorString(this->FigGfxInfo.FillClr) << "\n";
 	else
 		OutFile << "NO_FILL\n";
 }
+
+//asmaa
+//This function reads the details of the ellipse figure from the input file stream 
 void CSquare::Load(ifstream& Infile) {
 
 	string squareData;
+
+	//// It reads the coordinates of the point and length
 	Infile
 		>> TopLeftCorner.x
 		>> TopLeftCorner.y
 		>> length;
 
+	// the drawing color
 	Infile >> squareData;
 	FigGfxInfo.DrawClr = this->ColorObject(squareData);
 
 	Infile >> squareData;
+
+	//and the fill color
 	FigGfxInfo.FillClr = this->ColorObject(squareData);
 	FigGfxInfo.isFilled = true;
 
+	//show figure
 	this->show();
 	this->FigGfxInfo.BorderWdth = 3; //pass 3 as default value for borderWidth
 	this->SetSelected(false);

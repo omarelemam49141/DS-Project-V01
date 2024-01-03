@@ -7,8 +7,8 @@
 #include <string>
 
 using namespace std;
-
-ActionSave::ActionSave(ApplicationManager* pApp, int FigCount, bool exit = false) : Action(pApp)
+//asmaa This action is responsible for saving the current  drawing to a text file.
+ActionSave::ActionSave(ApplicationManager* pApp, int FigCount) : Action(pApp)
 {
 	FileName = "temp_name";
 	FigCnt = FigCount;
@@ -17,6 +17,7 @@ ActionSave::ActionSave(ApplicationManager* pApp, int FigCount, bool exit = false
 
 void ActionSave::ReadActionParameters()
 {
+	//This function reads the file name from the user .
 	GUI* pGUI = pManager->GetGUI();
 	pGUI->ClearStatusBar();
 	pGUI->PrintMessage("Enter File Name");
@@ -29,6 +30,7 @@ void ActionSave::Execute()
 	GUI* pGUI = pManager->GetGUI();
 
 	ofstream OutFile;
+	// Open a file for writing
 	OutFile.open("saved_Drawing_files\\" + FileName + ".txt", ios::out | ios::trunc);
 
 
@@ -38,7 +40,10 @@ void ActionSave::Execute()
 		<< "\t" << pManager->colorString(pGUI->getCrntBGColor()) << "\n";
 	OutFile << FigCnt << "\n";
 
+	// Saving all figures to the file
 	pManager->SaveAll(OutFile);
+
+	// Close the file and display a message
 	OutFile.close();
 	pGUI->PrintMessage("File Saved!");
 
