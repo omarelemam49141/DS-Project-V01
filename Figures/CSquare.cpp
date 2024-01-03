@@ -73,27 +73,23 @@ void CSquare::Load(ifstream& Infile) {
 
 //nyra
 void CSquare::Resize(GUI* pGUI, float size) {
-	if (this == nullptr) {
-		pGUI->PrintMessage("Error: 'this' pointer is null in CSquare::Resize");
-		return;
-	}
+	
+Point topLeft = TopLeftCorner;
 
-	Point test1 = TopLeftCorner;
+// Calculate the new length after resizing
+float newLength = this->length * size;
 
+// Set a minimum size for the square
+float minSize = 10.0;
 
+// Check if the square will be outside the drawing area vertically or horizontally
+if (topLeft.y < UI.ToolBarHeight || topLeft.x > UI.width || (topLeft.y - newLength / 2) < UI.ToolBarHeight || newLength < minSize) {
+	pGUI->PrintMessage("Error: Resizing square would place it outside the drawing area or make it too small.");
+	return;
+}
 
-
-	// Calculate the new length after resizing
-	float newLength = this->length * size;
-
-	// Check if the square will be outside the drawing area vertically or horizontally
-	if (test1.y < UI.ToolBarHeight || test1.x > UI.width || (test1.x - newLength / 2) < 0 || (test1.y - newLength / 2) < UI.ToolBarHeight) {
-		pGUI->PrintMessage("Resizing square would place it outside the drawing area or make it too small");
-		return;
-	}
-
-	// Resize the square by updating its length
-	this->length = newLength;
+// Resize the square by updating its length
+this->length = newLength;
 }
 
 

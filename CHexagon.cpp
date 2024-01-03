@@ -1,12 +1,19 @@
 #include "CHexagon.h"
 #include <iostream>
 #include <fstream>
+#include <algorithm> 
+#include <cmath>  
 using namespace std;
 CHexagon::CHexagon(int *_xCoords, int* _yCoords, int _vertexes, GfxInfo FigureGfxInfo) :CFigure(FigureGfxInfo)
 {
+
     xCoordinates = _xCoords;
     yCoordinates = _yCoords;
-	vertexes = _vertexes;
+    vertexes = _vertexes;
+
+    // Store the original coordinates
+    originalXCoordinates.assign(xCoordinates, xCoordinates + vertexes);
+    originalYCoordinates.assign(yCoordinates, yCoordinates + vertexes);
 }
 
 CHexagon::CHexagon() {
@@ -104,9 +111,14 @@ void CHexagon::Load(ifstream& Infile) {
     this->SetSelected(false);
 }
 
+
 //nyra
+//function to resize the hexagon 
 void CHexagon::Resize(GUI* pGUI, float scaleFactor)
 {
+    // Minimum size threshold to prevent resizing too small
+    const float minSizeThreshold = 10.0;
+
     // Calculate the center of the hexagon
     float centerX = 0, centerY = 0;
     for (int i = 0; i < vertexes; ++i) {
@@ -121,39 +133,39 @@ void CHexagon::Resize(GUI* pGUI, float scaleFactor)
         float dx = xCoordinates[i] - centerX;
         float dy = yCoordinates[i] - centerY;
 
-        // Calculate the new position after resizing
-        int newX = static_cast<int>(centerX + scaleFactor * dx);
-        int newY = static_cast<int>(centerY + scaleFactor * dy);
+        // Calculate the original distance from the center
+        float originalDistance = std::hypot(dx, dy);
 
-        // Check if the new position is outside the drawing area
-        if (newX < 0 || newX > UI.width ||
-            newY < UI.ToolBarHeight ||
-            newY > UI.height - UI.StatusBarHeight) {
-            pGUI->PrintMessage("Resizing hexagon exceeds drawing area or is very small");
+        // Calculate the scaled distance from the center
+        float scaledDistance = originalDistance * scaleFactor;
+
+        // Check if the new position is outside the drawing area or below the minimum size threshold
+        if (scaledDistance < minSizeThreshold ||
+            (centerX + scaledDistance * (dx / originalDistance)) < 0 ||
+            (centerX + scaledDistance * (dx / originalDistance)) > UI.width ||
+            (centerY + scaledDistance * (dy / originalDistance)) < UI.ToolBarHeight ||
+            (centerY + scaledDistance * (dy / originalDistance)) > UI.height - UI.StatusBarHeight) {
+            pGUI->PrintMessage("Resizing hexagon exceeds drawing area or is too small");
             return;  // Abort resizing
         }
     }
 
-    // If all vertices are within the drawing area, apply the resizing
+    // If all vertices are within the drawing area and above the minimum size, apply the resizing
     for (int i = 0; i < vertexes; ++i) {
         float dx = xCoordinates[i] - centerX;
         float dy = yCoordinates[i] - centerY;
 
+        // Calculate the original distance from the center
+        float originalDistance = std::hypot(dx, dy);
+
+        // Calculate the scaled distance from the center
+        float scaledDistance = originalDistance * scaleFactor;
+
         // Resize the distance from the center by the scale factor
-        xCoordinates[i] = static_cast<int>(centerX + scaleFactor * dx);
-        yCoordinates[i] = static_cast<int>(centerY + scaleFactor * dy);
+        xCoordinates[i] = static_cast<int>(centerX + scaledDistance * (dx / originalDistance));
+        yCoordinates[i] = static_cast<int>(centerY + scaledDistance * (dy / originalDistance));
     }
 }
-
-void CHexagon::ResetToOriginalSize()
-{
-    for (int i = 0; i < vertexes; ++i) {
-        xCoordinates[i] = originalXCoordinates[i];
-        yCoordinates[i] = originalYCoordinates[i];
-    }
-}
-
-
 string CHexagon::getShapeType()
 {
     return "Hexagon";

@@ -136,6 +136,7 @@
     <ClCompile Include="ActionDelete.cpp" />
     <ClCompile Include="ActionLoad.cpp" />
     <ClCompile Include="ActionPlayByFill.cpp" />
+    <ClCompile Include="ActionPlayByFillType.cpp" />
     <ClCompile Include="ActionPlayByType.cpp" />
     <ClCompile Include="ActionResize.cpp" />
     <ClCompile Include="ActionSave.cpp" />
@@ -144,7 +145,6 @@
     <ClCompile Include="ActionSendToFront.cpp" />
     <ClCompile Include="ActionSwitchToDraw.cpp" />
     <ClCompile Include="ActionSwitchToPlay.cpp" />
-    <ClCompile Include="Actions\ActionPlayByFillType.cpp" />
     <ClCompile Include="CEllipse.cpp" />
     <ClCompile Include="CHexagon.cpp" />
     <ClCompile Include="ActionChngFigureClr.cpp" />
@@ -200,6 +200,7 @@
     <ClInclude Include="ActionDelete.h" />
     <ClInclude Include="ActionLoad.h" />
     <ClInclude Include="ActionPlayByFill.h" />
+    <ClInclude Include="ActionPlayByFillType.h" />
     <ClInclude Include="ActionPlayByType.h" />
     <ClInclude Include="ActionResize.h" />
     <ClInclude Include="ActionSave.h" />
@@ -208,7 +209,6 @@
     <ClInclude Include="ActionSendToFront.h" />
     <ClInclude Include="ActionSwitchToDraw.h" />
     <ClInclude Include="ActionSwitchToPlay.h" />
-    <ClInclude Include="Actions\ActionPlayByFillType.h" />
     <ClInclude Include="CEllipse.h" />
     <ClInclude Include="CHexagon.h" />
     <ClInclude Include="ActionChngFigureClr.h" />

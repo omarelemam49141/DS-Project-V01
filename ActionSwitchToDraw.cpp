@@ -1,5 +1,5 @@
 #include "ActionSwitchToDraw.h"
-#include "..\ProjectTeamMerge - 3\GUI\GUI.h"
+#include "GUI\GUI.h"
 // #include "ActionLoad.h"
 #include "ApplicationManager.h"
 

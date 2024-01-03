@@ -170,13 +170,7 @@ ActionType GUI::MapInputToActionType() const
 
 			switch (ClickedItemOrder)
 			{
-				//case ITM_SQUR2: return DRAW_SQUARE;
-				//case ITM_ELPS: return DRAW_ELPS;
-				//case ITM_HEX: return DRAW_HEX;
-				//case ITM_CHNG_DRAW_CLR: return CHNG_DRAW_CLR;
-				//case ITM_CHNG_FILL_CLR: return CHNG_FILL_CLR;
-				//case ITM_CHNG_BK_CLR: return CHNG_BK_CLR;
-				//case ITM_SWITCH_TO_PLAY_MODE: return TO_PLAY;
+				
 			case ITM_SWITCH_TO_DRAW_MODE: return TO_DRAW;
 			case ITM_GAME1:return ACTION_PLAY_TYPE;
 			case ITM_GAME2:return ACTION_PLAY_FILL;

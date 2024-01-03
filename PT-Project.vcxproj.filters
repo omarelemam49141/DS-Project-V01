@@ -205,7 +205,7 @@
     <ClCompile Include="ActionPlayByFill.cpp">
       <Filter>Action Classes</Filter>
     </ClCompile>
-    <ClCompile Include="Actions\ActionPlayByFillType.cpp">
+    <ClCompile Include="ActionPlayByFillType.cpp">
       <Filter>Action Classes</Filter>
     </ClCompile>
   </ItemGroup>
@@ -349,7 +349,7 @@
     <ClInclude Include="ActionPlayByFill.h">
       <Filter>Action Classes</Filter>
     </ClInclude>
-    <ClInclude Include="Actions\ActionPlayByFillType.h">
+    <ClInclude Include="ActionPlayByFillType.h">
       <Filter>Action Classes</Filter>
     </ClInclude>
   </ItemGroup>

@@ -71,6 +71,7 @@ void CEllipse::Load(ifstream& Infile) {
 }
 
 //nyra
+
 void CEllipse::Resize(GUI* pGUI, float size) {
     Point test1 = pointone, test2 = pointtwo;
 
@@ -78,20 +79,47 @@ void CEllipse::Resize(GUI* pGUI, float size) {
     const float tolerance = 1e-6;
 
     // Adjust the size if it matches one of the special cases
-    if (std::abs(size - 0.5) < tolerance) size = -0.5;
-    else if (std::abs(size - 0.25) < tolerance) size = -(4.0 / 3);
-    else if (std::abs(size - 2.0) < tolerance) size = 1.0;
-    else if (std::abs(size - 1.0) < tolerance) size = 3.0;
+    if (std::abs(size - 0.5) < tolerance) {
+        size = 0.5;
+    }
+    else if (std::abs(size - 0.25) < tolerance) {
+        // Resize to 1/4 by adjusting the points relative to the current size
+        float currentSizeX = (test2.x - test1.x) / 2;
+        float currentSizeY = (test2.y - test1.y) / 2;
+        float adjustmentX = currentSizeX * 0.75;  
+        float adjustmentY = currentSizeY * 0.75;
+
+        // Check if the resized ellipse would be too small
+        if (((test2.x - test1.x) - 2 * adjustmentX) < 5 || ((test2.y - test1.y) - 2 * adjustmentY) < 5) {
+            pGUI->PrintMessage("Resizing ellipse would make it too small");
+            return;
+        }
+
+        test1.x += adjustmentX;
+        test2.x -= adjustmentX;
+        test1.y += adjustmentY;
+        test2.y -= adjustmentY;
+
+        pointone = test1;
+        pointtwo = test2;
+        return;
+    }
+    else if (std::abs(size - 2.0) < tolerance) {
+        size = 2.0;
+    }
+    else if (std::abs(size - 1.0) < tolerance) {
+        size = 1.0;
+    }
 
     // Calculate half radius (horizontal x && vertical y)
-    float deltaX = 0.5 * (pointtwo.x - pointone.x);
-    float deltaY = 0.5 * (pointtwo.y - pointone.y);
+    float deltaX = 0.5 * (test2.x - test1.x);
+    float deltaY = 0.5 * (test2.y - test1.y);
 
     // Calculate resized points
-    test1.x -= deltaX * size;
-    test2.x += deltaX * size;
-    test1.y -= deltaY * size;
-    test2.y += deltaY * size;
+    test1.x -= deltaX * (size - 1); 
+    test2.x += deltaX * (size - 1);
+    test1.y -= deltaY * (size - 1);
+    test2.y += deltaY * (size - 1);
 
     // Check if the resized ellipse is within the drawing area
     if (test1.y < UI.ToolBarHeight || test2.y > UI.height - UI.StatusBarHeight
@@ -100,10 +128,10 @@ void CEllipse::Resize(GUI* pGUI, float size) {
         return;
     }
     // Check if the resized ellipse is too small
-   /* else if (((test2.x - test1.x) / 2) < 1 || ((test2.y - test1.y) / 2) < 1) {
-        pGUI->PrintMessage("Resizing ellipse would make it very small");
+    if (((test2.x - test1.x) / 2) < 5 || ((test2.y - test1.y) / 2) < 5) {
+        pGUI->PrintMessage("Resizing ellipse would make it too small");
         return;
-    }*/
+    }
 
     // Apply the resized points if no issues
     pointone = test1;

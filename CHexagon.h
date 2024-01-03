@@ -3,14 +3,15 @@
 #endif
 
 #include "figures/CFigure.h"
+#include <vector>
 
 class CHexagon : public CFigure
 {
 private:
 	int * xCoordinates;
 	int* yCoordinates;
-	int* originalXCoordinates;
-	int* originalYCoordinates;
+	std::vector<int> originalXCoordinates;
+	std::vector<int> originalYCoordinates;
 	int vertexes;
 public:
 	CHexagon(int *, int*, int, GfxInfo FigureGfxInfo);

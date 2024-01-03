@@ -21,6 +21,7 @@
 #include "ActionSwitchToDraw.h"
 #include "ActionPlayByFill.h"
 #include "ActionPlayByType.h"
+#include "ActionPlayByFillType.h"
 
 //Constructor
 ApplicationManager::ApplicationManager()
@@ -134,6 +135,9 @@ Action* ApplicationManager::CreateAction(ActionType ActType)
 		case ACTION_PLAY_FILL:
 			newAct = new ActionPlayByFill(this);
 			break;
+		case ACTION_PLAY_TYPEFILL:
+			newAct = new ActionPlayByFillType(this);
+			break;
 		
 		case EXIT:
 			///create ExitAction here
@@ -232,7 +236,7 @@ string ApplicationManager::colorString(color ClrObj) const
 	else if (ClrObj == LIGHTYELLOW) return "LIGHTYELLOW";
 	else if (ClrObj == LIGHTCYAN) return "LIGHTCYAN";
 	else if (ClrObj == LIGHTGOLDENRODYELLOW) return "LIGHTGOLDENRODYELLOW";
-	else return "GREEN";
+	else return "NO-FILL";
 }
 color ApplicationManager::ColorObject(string ClrStr) const
 {
@@ -246,7 +250,7 @@ color ApplicationManager::ColorObject(string ClrStr) const
 	else if (ClrStr == "YELLOW") return YELLOW;
 	else if (ClrStr == "GREEN") return GREEN;
 	else if (ClrStr == "BLUE") return BLUE;
-	else return BLUE;
+	else return LIGHTCYAN ;
 }
 
 void ApplicationManager::SaveAll(ofstream& Out)
@@ -452,4 +456,11 @@ int ApplicationManager::countByTypeAndColor(string type, string color) {
 		if (FigList[i]->getShapeType() == type && getColorName(FigList[i]->getFillColor()) == color)
 			count++;
 	return count;
+}
+
+string ApplicationManager::getRandomExistingType()
+{
+	//generating Random index 
+	int RandomIndex = rand() % FigCount;
+	return FigList[RandomIndex]->getShapeType();
 }
